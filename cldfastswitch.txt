@@ -1,0 +1,2 @@
+!d,ahk_exe dopus.exe
+!n,Notepad++

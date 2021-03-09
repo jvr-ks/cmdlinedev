@@ -1,0 +1,40 @@
+Fastswitch,[_ahk]\fastswitch,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\fastswitch.npp-session
+Findreplace2,[sc]\findreplace2,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\findreplace2.npp-session
+Findreplace2 native,[sc]\findreplace2,[frpl2_nativ]
+Selja (!j),[_ahk]\selja,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\selja.npp-session
+Cmdlinedev (!c),[_ahk]\cmdlinedev,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\cmdlinedev.npp-session
+Clickandsleep (!q),[_ahk]\clickandsleep,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\clickandsleep.npp-session
+sbt_console_select (!t),[_ahk]\sbt_console_select,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\sbt_console_select.npp-session
+Clipboardresize (+#z),[_ahk]\clipboardresize,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\clipboardresize.npp-session
+Codetester (!u),[_ahk]\codetester,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\codetester.npp-session
+Skatstube (!g),[_ahk]\skatstube,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\skatstube.npp-session
+Titleliner,[_ahk]\titleliner,dopusrt#[dopus2_hidden],notepad++#titleliner.ahk
+Playlist,[sjs]playlist,dopus,notepad++#[_nppsess]\playlist.npp-session
+Jvrde,[sjs]\jvrde,dopus,notepad++#[_nppsess]\_jvrde-scalajs.npp-session
+Asgm,[sjs],dopusrt#[dopus2_asgm],notepad++#[_nppsess]\asgm_help.npp-session,notepad++#[_nppsess]\asgm.npp-session
+Textdictator,[sjs]\textdictator,dopus,notepad++#[_nppsess]\textdictator.npp-session
+Cats,[scL]\cats,dopus,notepad++#[_nppsess]\cats.npp-session,FireFox#http://eed3si9n.com/herding-cats/sbt.html,s_c_s#8
+Cats amm,[scL]\cats,dopus,notepad++#[_nppsess]\cats.npp-session,FireFox#http://eed3si9n.com/herding-cats/sbt.html,WSL64#amm[E]~1
+Shapeless,[scL]\shapeless,dopus,cmdline
+scalafxAsScript,[sc]\scalafxAsScript,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\scalafxAsScript.npp-session
+scalafxNativ,[sc]\scalafxnative,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\scalafxNative.npp-session
+scalafxNativ run,[sc]\scalafxnative,VS19#{text}[Graal-11-NI][Graal-RST] -cp lib/*;Test2-assembly-0.001-SNAPSHOT.jar Test2~1#[E]~1
+__testarea,[scL]\__testarea,dopus,notepad++#[_nppsess]\__testarea.npp-session,s_c_s#3
+__testarea WSL,[scL]\__testarea,WSL64#amm~1,dopus,notepad++#[_nppsess]\__testarea.npp-session
+allfilesBetter,[scL]\allfilesBetter,dopus,notepad++#[_nppsess]\allfilesBetter.npp-session,Swriter#[odt]\betterfiles.odt
+allfilesBetter native,[scL]\allfilesBetter,VS19#{text}[allf_ni_jar] 
+Pricecompare,[pricecp]\,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\pricecompare.npp-session
+Pricecompare native,[pricecp]_native,VS19,dopusrt#[dopus2_hidden],notepad++#[_nppsess]\pricecompare_native.npp-session
+Wordpress,[_hkb]\[got],dopus,notepad++#functions.php
+Autostart-folder user,,dopusrt#[acm]#[Startup1]
+Autostart-f. system,,dopusrt#[acm]#[Startup2]
+WSL UPDATE,,WSL64#sudo su[E]~0#[agu]~0#[agdu]~0#[agar]~0#[Ex]~2#[Ex]~2
+eMail me,,email#[email1]
+Google translate,,chrome#https://translate.google.com/
+WSL mill example,,WSL64#{text}cd [repo]/scalatags_example~1#[E]mill example.compile[E]~0#exit[E]~1
+TEST 1 explorer,,filemanager#c:\tmp
+TES2 1a unknown tool,,xyz,
+TEST 3 Show dir (Window),,shell#cd [tmp]#dir
+TEST 4,,showMessage#Command finished!~5
+TEST 5,,notepad#{text}Hello world!~1#[E]~1#by by{!}[E](Press Ctrl-key)~0#!d~2#b~2#n~1
+
