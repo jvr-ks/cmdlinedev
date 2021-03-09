@@ -137,7 +137,9 @@ Hotkey prefix | Modifier Key |  Remark
 \# | \[WIN] |
 \+ | \[SHIFT] |  
     
-All [Autohotkey Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) hotkeys-characters are usable, but only these four are displayed correctly in the menu.
+Other [Autohotkey Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm) hotkeys-characters are usable,  
+but are untested.  
+Only simple hotkeys are good to remember and fast to access!  
 
 	
 #### Buildin-functions:     
@@ -231,6 +233,6 @@ Copyright (c) 2020 J. v. Roos
 
 
 ##### Virus check at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0/detection/u-d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0-1615307873
+[Check here](https://www.virustotal.com/gui/url/d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0/detection/u-d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0-1615308947
 )  
 Use [CTRL] + Click to open in a new window! 
