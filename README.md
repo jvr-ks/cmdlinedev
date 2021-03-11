@@ -191,7 +191,7 @@ They are defined in the Hotkey-file: "cldfastswitch.txt".
 Format is: hotkey, app-title  
   
 hotkey is a hotkey-definition, see [Autohotkey Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm)   
-app-title is any part of the window-title
+app-title is any part of the window-title and/or any [other criteria.](https://www.autohotkey.com/docs/misc/WinTitle.htm) of the Window Title.  
 
 Already defined in the included Hotkey-file:  
 * Notepad++ with \[ALT] + \[n], i.e. "!n"
