@@ -63,7 +63,7 @@ SetTitleMatchMode, 2
 wrkDir := A_ScriptDir . "\"
 
 appName := "CmdLineDev"
-appVersion := "0.130"
+appVersion := "0.131"
 app := appName . " " . appVersion
 
 iniFile := wrkDir . "cmdlinedev.ini"
@@ -426,6 +426,7 @@ mainWindow(hide := false) {
 	global directoriesFile
 	global toolsFile
 	global iniFile
+	global fastSwitchFile
 	global app
 	global appName
 	global appVersion	
@@ -458,7 +459,7 @@ mainWindow(hide := false) {
 	Menu, MainMenuEdit,Add,Edit Tools-file: "%toolsFile%" with Notepad++,editToolsFile
 	Menu, MainMenuEdit,Add,Edit Shortcuts-file: "%toolsFile%" with Notepad++,editShortcutsFile
 	Menu, MainMenuEdit,Add,Edit Ini-file: "%iniFile%" with Notepad++,editIniFile
-	Menu, MainMenuEdit,Add,Edit Fastswitch-file: "%iniFile%" with Notepad++,editFastSwitchFile
+	Menu, MainMenuEdit,Add,Edit Fastswitch-file: "%fastSwitchFile%" with Notepad++,editFastSwitchFile
 	
 	Menu, MainMenuInsert,Add,Insert URL`/Firefox,insertFireFoxURL
 	Menu, MainMenuInsert,Add,Insert URL`/Chrome,insertChromeURL
