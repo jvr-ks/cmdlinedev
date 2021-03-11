@@ -63,7 +63,7 @@ SetTitleMatchMode, 2
 wrkDir := A_ScriptDir . "\"
 
 appName := "CmdLineDev"
-appVersion := "0.132"
+appVersion := "0.133"
 app := appName . " " . appVersion
 
 iniFile := wrkDir . "cmdlinedev.ini"
