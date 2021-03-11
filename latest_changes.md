@@ -1,9 +1,8 @@
 #### Latest changes: 
 [-> README](README.md)
  
-* Build in fastswitch functionality:  
-* * notepad Hotkey = \[Alt] + \[n]-key default
-* * dopus Hotkey= \[Alt] + \[d]-key default  
+* Build in fastswitch functionality, hotkeys are defined in the Fastswitch-file "cldfastswitch.txt",  
+* * Menu -> Edit -> Edit Fastswitch-file  
 * \[Ctrl] + \[Shift]-key | Execute third command only  
 * \[Alt] + \[Shift]-key | Execute forth command only  
 * "hidewindow" parameter failure removed  
