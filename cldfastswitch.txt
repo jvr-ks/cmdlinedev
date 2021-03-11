@@ -1,4 +1,6 @@
+; ! = ALT ^ = CTRL # = WIN + = SHIFT
+
 !d,ahk_exe dopus.exe
 !n,Notepad++
 !f,ahk_exe firefox.exe
-!b,ahk_class Chrome_WidgetWin_1
+!b,ahk_class Chrome_WidgetWin_1:

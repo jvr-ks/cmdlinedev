@@ -63,7 +63,7 @@ SetTitleMatchMode, 2
 wrkDir := A_ScriptDir . "\"
 
 appName := "CmdLineDev"
-appVersion := "0.131"
+appVersion := "0.132"
 app := appName . " " . appVersion
 
 iniFile := wrkDir . "cmdlinedev.ini"
@@ -299,8 +299,8 @@ readFastSwitch(){
 		LineNumber := A_Index
 		fastSwitchHotkey := ""
 		fastSwitchTitle := ""
-		
-		if (A_LoopReadLine != "") {
+
+		if (A_LoopReadLine != "" && !InStr(A_LoopReadLine,";")) {
 			Loop, parse, A_LoopReadLine, %A_Tab%`,
 			{	
 				if(A_Index == 1)
@@ -309,6 +309,7 @@ readFastSwitch(){
 				if(A_Index == 2)
 					fastSwitchTitle := A_LoopField
 			}
+			
 			fastSwitchArr[fastSwitchHotkey] := fastSwitchTitle
 		}
 	}
@@ -1038,8 +1039,7 @@ editShortcutsFile() {
 
 	return
 }
-
-
+;---------------------------- editFastSwitchFile ----------------------------
 editFastSwitchFile() {
 	global fastSwitchFile
 	global notepadpath

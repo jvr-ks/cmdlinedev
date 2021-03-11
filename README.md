@@ -192,6 +192,7 @@ Format is: hotkey, app-title
   
 hotkey is a hotkey-definition, see [Autohotkey Hotkeys](https://www.autohotkey.com/docs/Hotkeys.htm)   
 app-title is any part of the window-title and/or any [other criteria.](https://www.autohotkey.com/docs/misc/WinTitle.htm) of the Window Title.  
+";" (is Comment) and "," (is separator) are not allowed inside hotkey definitions.  
 
 Already defined in the included Hotkey-file:  
 * Notepad++ with \[ALT] + \[n], i.e. "!n"
@@ -233,6 +234,6 @@ Copyright (c) 2020 J. v. Roos
 
 
 ##### Virus check at Virustotal 
-[Check here](https://www.virustotal.com/gui/url/d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0/detection/u-d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0-1615468190
+[Check here](https://www.virustotal.com/gui/url/d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0/detection/u-d31f7aa4dba0bc551702ea98e7c7398acea0625c363ef34497bb7733a9454be0-1615470916
 )  
 Use [CTRL] + Click to open in a new window! 
