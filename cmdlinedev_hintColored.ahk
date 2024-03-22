@@ -2,7 +2,7 @@
 ; part of cmdlinedev
 
 ;------------------------------ showHintColored ------------------------------
-showHintColored(handle, s := "", n := 3000, fg := "cFFFFFF", bg := "a900ff", newfont := "", newfontsize := ""){
+showHintColored(handle, s := "", n := 3000, fg := "cFFFFFF", bg := "a900ff", newfont := "", newfontsize := "", style := "+0x80000000"){
   global mainHWND
   global font, fontsize
   
@@ -12,7 +12,7 @@ showHintColored(handle, s := "", n := 3000, fg := "cFFFFFF", bg := "a900ff", new
   if (newfontsize == "")
     newfontsize := fontsize
   
-  Gui, hintColored:new, hwndhHintColored +parentGuiMain +ownerGuiMain +0x80000000
+  Gui, hintColored:new, hwndhHintColored +parentGuiMain +ownerGuiMain %style%
   Gui, hintColored:Font, s%newfontsize%, %newfont%
   Gui, hintColored:Font, c%fg%
   Gui, hintColored:Color, %bg%

@@ -317,6 +317,14 @@ runCurrent(){
   
   runInDir(currentSelected)
 }
+;------------------------------ runningMessage ------------------------------
+runningMessage(directoryEntryArr, n){
+  
+  ret := ""
+  ret := directoryEntryArr[1] . "`n`nRunning Cmd" . n . " only:`n`n" . directoryEntryArr[3 + n]
+
+ return ret
+}
 ;--------------------------------- runInDir ---------------------------------
 runInDir(lineNumber) {
   global mainHWND, directoriesFile, directoriesArr, toolsArr, paramMaxCount
@@ -337,25 +345,26 @@ runInDir(lineNumber) {
     {
     case 0:
       ; no additional key pressed
-      msg := "Running all Cmds:`n`n"
+      msg := directoryEntryArr[1]  . "`n`nRunning all Cmds:`n`n"
       entriesStart := 3
       loop 5
       {
-        if (directoryEntryArr[A_Index + entriesStart] != "")
+        if (directoryEntryArr[A_Index + entriesStart] != emptyFiledSubstituteChar)
           msg .= directoryEntryArr[A_Index + entriesStart] . "`n"
       }
-      showHintColored(mainHWND, msg, hintTime)
+      ;showHintColored(handle, s := "", n := 3000, fg := "cFFFFFF", bg := "a900ff", newfont := "", newfontsize := "", style := "+0x80000000")
+      showHintColored(mainHWND, msg, hintTime,,,,, "+0x80800000")
       runInDirDefault(lineNumber,0)
       tipTopCloseAll()
     case 2:
       ;*** Alt ***
-      showHintColored(mainHWND, "Selected Cmd2 only! (" . directoryEntryArr[5] . ")", 0)
+      showHintColored(mainHWND, runningMessage(directoryEntryArr, 2), 0)
       runInDirDefault(lineNumber,2)
       tipTopCloseAll()  
       Gui, hintColored:Destroy      
     case 4:
       ;*** Ctrl ***
-      showHintColored(mainHWND, "Selected Cmd1 only! (" . directoryEntryArr[4] . ")", 0)
+      showHintColored(mainHWND, runningMessage(directoryEntryArr, 1), 0)
       runInDirDefault(lineNumber,1)
       tipTopCloseAll()
       Gui, hintColored:Destroy
@@ -386,13 +395,13 @@ runInDir(lineNumber) {
       
     case 10:
       ;*** Alt + shift***
-      showHintColored(mainHWND, "Selected Cmd4 only! (" . directoryEntryArr[7] . ")", 0)
+      showHintColored(mainHWND, runningMessage(directoryEntryArr, 4), 0)
       runInDirDefault(lineNumber,4)
       tipTopCloseAll()
       Gui, hintColored:Destroy
     case 12:
       ;*** Ctrl + shift***
-      showHintColored(mainHWND, "Selected Cmd3 only! (" . directoryEntryArr[6] . ")", 0)
+      showHintColored(mainHWND, runningMessage(directoryEntryArr, 3), 0)
       runInDirDefault(lineNumber,3)
       tipTopCloseAll()
       Gui, hintColored:Destroy
