@@ -177,6 +177,7 @@ readConfig(){
     Hotkey, %runnerhotkey%, rundev, "T1"
   }
   runnerPath := iniReadSave("runnerPath", "external", "")
+  guicontrol, guiMain:, Edit_Run, %runnerPath%
   
   hintTimeShort := iniReadSave("hintTimeShort", "timing", hintTimeShortDefault)
   hintTimeMedium := iniReadSave("hintTimeMedium", "timing", hintTimeMediumDefault)

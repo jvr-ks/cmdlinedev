@@ -11,7 +11,7 @@ sbt_console_select (!t),,[ahk]\sbt_console_select,dopusrt#[dopus2_hidden],!opens
 Skatstube,,[ahk]\skatstube,dopusrt#[dopus2_hidden],!opensession!#skatstube
 kontaktSupporter,11196484,[ahk]\kontaktsupporter,dopusrt#[dopus2_hidden],!opensession!#kontaktsupporter
 kontaktSupporter cuda,11683861,[ahk]\kontaktsupporter,cudatext#kontakSupporter.cuda-proj,_,_,_
-lang2,11884611,[ahk]\lang2,dopusrt#[dopus2],!opensession!#lang2,!externalApp!#[ahk]\lang2\demo preselect2.ahk,_
+lang2,11997852,[ahk]\lang2,dopusrt#[dopus2],!opensession!#lang2,!externalApp!#[ahk]\lang2\winHttpRequest_test.ahk,_
 UnicodeTable,10200681,[ahk]\UnicodeTable,dopusrt#[dopus2_hidden],!opensession!#UnicodeTable
 Startdelayed,2393963,[ahk]\startdelayed,dopusrt#[dopus2_hidden],!opensession!#startdelayed
 Simpletools,,[ahk]\simpletools,dopusrt#[dopus2_hidden],!opensession!#simpletools

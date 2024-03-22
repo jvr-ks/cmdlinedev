@@ -114,7 +114,7 @@ mainWindow(hide := false) {
   gui, guiMain:Add, Button, x+m ys grunCurrent vButton_7, Open currently selected entry
   
   gui, guiMain:Add, Text, x+m , Run external app:
-  gui, guiMain:Add, Edit, x+m ys r1 w300 GrundevSave vEdit_Run, %runnerPath%
+  gui, guiMain:Add, Edit, x+m ys r1 w400 GrundevSave vEdit_Run, %runnerPath%
   
   fastSwitchAutoCycleHotkeyDisplay := "(" . hotkeyToText(fastSwitchAutoCycleHotkey) . "):"
   gui, guiMain:Add, Text,x5 ,FS Auto Cycle %fastSwitchAutoCycleHotkeyDisplay%
