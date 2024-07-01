@@ -351,8 +351,8 @@ ButtonOK(){
 rundev(){
   global runnerPath
 
-  ;p := StrReplace(cvtPath(runnerPath, ""),"\\","\")
   p := cvtPath(runnerPath, "")
+  
   run, %p%,, MAX
 }
 ;-------------------------------- rundevSave --------------------------------

@@ -10,7 +10,7 @@ cvtPath(s, path){
   ; handles %enviroment variable%
   ; replaces "°" with "#" (URL relativ address)
   
-  global wrkdir, shortcutsArr
+  global wrkdir
   
   if (s == "")
     return ""
@@ -31,18 +31,24 @@ cvtPath(s, path){
   }
 
   r := StrReplace(r, "°", "#")
-tooltip, convert: %s% path: %path% result: %r%
+  
   return r
 }
 ;--------------------------------- shortcut ---------------------------------
 shortcut(s, path){
   global shortcutsArr
   
-  r := s
+  r := ""
+  
+  if (path == "")
+    path := A_ScriptDir
 
-  sc := cvtPath(shortcutsArr[r], path)
-  if (sc != "")
-    r := sc
+  if (s == ""){
+    r := path
+  } else {
+    if (shortcutsArr.haskey(s))
+      r := shortcutsArr[s]
+  }
 
   return r
 }

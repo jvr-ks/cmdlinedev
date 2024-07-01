@@ -1,4 +1,4 @@
-﻿Cmdlinedev (!c),42895506,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]cmdlinedev.ahk showwindow,_
+﻿Cmdlinedev (!c),42895506,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
 Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
 Memo,99999999,C:\jvr_shared\_memo,dopusrt#/acmd Go C:\___jvr_work\___workspaces\1 NEWTAB OPENINRIGHT DUALPATH [...],!opensession!#memo,_
 Cats Effect consoleQuick,,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT [...],curl#[scsRest](Catseffect_consoleQuick),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
