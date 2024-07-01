@@ -351,7 +351,7 @@ ButtonOK(){
 rundev(){
   global runnerPath
 
-  p := cvtPath(runnerPath, "")
+  p := cvtPath(runnerPath)
   
   run, %p%,, MAX
 }

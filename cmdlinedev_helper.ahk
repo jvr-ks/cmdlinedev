@@ -3,26 +3,23 @@
 
 
 ;---------------------------------- cvtPath ----------------------------------
-cvtPath(s, path){
+cvtPath(s){
+  global pathSelected
+  
   ; handles "[...]" as path repetition
-  ; handles [shortcut]
+  ; handles [shortcut] ...
   ; handles %enviroment variable%
   ; replaces "°" with "#" (URL relativ address)
   
-  global wrkdir
-  
-  if (s == "")
-    return ""
-  
   r := s
+  
   pos := 0
 
-  if (path == "")
-    path := A_ScriptDir
-    
-  r := StrReplace(r, "[...]", path)
+  if(pathSelected != "")
+    r := StrReplace(r, "[...]", pathSelected)
+  
   While pos := RegExMatch(r,"O)(\[.*?\])", match, pos+1){
-    r := RegExReplace(r, "\" . match.1, shortcut(match.1, path), , 1, pos)
+    r := RegExReplace(r, "\" . match.1, shortcut(match.1), , 1, pos)
   }
 
   While pos := RegExMatch(r,"O)(%.+?%)", match, pos+1){
@@ -34,19 +31,13 @@ cvtPath(s, path){
   return r
 }
 ;--------------------------------- shortcut ---------------------------------
-shortcut(s, path){
+shortcut(s){
   global shortcutsArr
   
-  r := ""
+  r := s
   
-  if (path == "")
-    path := A_ScriptDir
-
-  if (s == ""){
-    r := path
-  } else {
-    if (shortcutsArr.haskey(s))
-      r := shortcutsArr[s]
+  if (shortcutsArr.haskey(s)){
+    r := shortcutsArr[s]
   }
 
   return r

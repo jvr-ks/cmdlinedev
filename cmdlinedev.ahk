@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.349"
+appVersion := "0.350"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -307,6 +307,7 @@ runInDir(lineNumber) {
   global hintTimeShort, hintTimeMedium, hintTime, hintTimeLong
   global paramMaxCount, forcedCancel, emptyFieldSubstituteChar
   global lastUsedText, currentSelected, eventTriggered
+  global pathSelected
 
   directoryEntryArr := []
   ; entries: 1 Name, 2 Current, 3 path, 4 - 7 commands
@@ -319,7 +320,10 @@ runInDir(lineNumber) {
 
   if (lineNumber != 0){
     ks := getKeyboardState()
-
+    
+    pathSelected := ""
+    pathSelected := cvtPath(directoryEntryArr[3])
+    
     switch ks
     {
     case 0:
@@ -443,14 +447,15 @@ runInDirDefault(i, useonly){
   global delayAfterCommand, delayAfterCommandDefault
   global sessionName, currentNotepadId
   global configFile, runnerPath, Edit_Run, emptyFieldSubstituteChar
+  global pathSelected
 
   directoryEntryArr := StrSplit(directoriesArr[i],",")
   
   ; entries: 1 Name, 2 Current, 3 path, 4 - 7 commands
   ; useonly: 2,3,4,5 -> index + 2: 4,5,6,7
 
-  path := directoryEntryArr[3]
-    
+  pathRaw := directoryEntryArr[3]
+  
   commandsMax := 0
 
   if (useonly == 0)
@@ -506,14 +511,13 @@ runInDirDefault(i, useonly){
           delayBeforeCommand := delayBeforeCommand + count * 2000
         }
         
-        parameter1 := extractToSend(nameArr[2], path, toSend1, delay1)
-        parameter2 := extractToSend(nameArr[3], path, toSend2, delay2)
-        parameter3 := extractToSend(nameArr[4], path, toSend3, delay3)
-        parameter4 := extractToSend(nameArr[5], path, toSend4, delay4)
-        parameter5 := extractToSend(nameArr[6], path, toSend5, delay5)
-        parameter6 := extractToSend(nameArr[7], path, toSend6, delay6)
+        parameter1 := extractToSend(nameArr[2], pathRaw, toSend1, delay1)
+        parameter2 := extractToSend(nameArr[3], pathRaw, toSend2, delay2)
+        parameter3 := extractToSend(nameArr[4], pathRaw, toSend3, delay3)
+        parameter4 := extractToSend(nameArr[5], pathRaw, toSend4, delay4)
+        parameter5 := extractToSend(nameArr[6], pathRaw, toSend5, delay5)
+        parameter6 := extractToSend(nameArr[7], pathRaw, toSend6, delay6)
       }
-      ; tool := cvtPath(toolsArr[command],"")
       tool := toolsArr[command]
       
       if (tool != ""){
@@ -582,12 +586,15 @@ runInDirDefault(i, useonly){
         if (FileExist(logfile))
           FileDelete, %logfile%    
           
-        FileAppend, @rem %logfile% `n`n@rem toRun:`n%toRun%`n@rem path: %path%`n`n, %logfile%, UTF-8
+        FileAppend, @rem %logfile% `n`n@rem toRun:`n%toRun%`n@rem path: %pathSelected%`n`n, %logfile%, UTF-8
         
         if (delayBeforeCommand > 0)
           sleep,%delayBeforeCommand%
+          
+        if(pathSelected != "")
+          toRun := StrReplace(toRun, "[...]", pathSelected)
         
-        Run, %toRun%, %path%, max
+        Run, %toRun%, %pathSelected%, MAX
         
         if (delayAfterCommand > 0)
           sleep, %delayAfterCommand%
@@ -705,12 +712,12 @@ extractToSend(sIn, path, ByRef sOut, ByRef delayOut){
   ; handles path etc., extracts delayN
   ; extracts filename (containing url) from §filename§
   
-  r := StrReplace(cvtPath(sIn, path),"^",",")
-  p := cvtPath(path, path)
+  r := StrReplace(cvtPath(sIn),"^",",")
+  p := cvtPath(path)
   
   pos := RegExMatch(sIn, "O)(.*)~(\d+)", match) 
   if (pos){
-    sOut := cvtPath(match.1,"")
+    sOut := cvtPath(match.1)
     delayOut := (0 + match.2) * 1000
     r := ""
   }
