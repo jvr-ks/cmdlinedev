@@ -1,6 +1,6 @@
 # CmdLineDev  
   
-Old AHK 1 code (some parts are ugly code)  
+Somewhat old AHK 1 code
   
 #### Known issues / bugs  
   

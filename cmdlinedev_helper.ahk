@@ -4,7 +4,6 @@
 
 ;---------------------------------- cvtPath ----------------------------------
 cvtPath(s, path){
-  ; Spaghetti code !!! ( cyclic call ...)
   ; handles "[...]" as path repetition
   ; handles [shortcut]
   ; handles %enviroment variable%
