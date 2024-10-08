@@ -1,0 +1,8 @@
+﻿;!d,ahk_class dopus.lister
+!n,ahk_class Notepad++
+!w,ahk_class Notepad++
+;!b,Mozilla Firefox
+;+!b,ahk_exe chrome.exe
+;!f,Foxit PDF Reader
+;!o,OpenOffice Writer
+;!k,ahk_group anyshell
