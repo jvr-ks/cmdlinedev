@@ -22,6 +22,7 @@ s_c_s,C:\___x2_wrk\_autohotkey\sbt_console_select\sbt_console_select.exe
 Swriter,"C:\Program Files (x86)\OpenOffice 4\program\swriter.exe"
 SciTEAHK,"C:\Program Files\AutoHotkey\SciTE\SciTE.exe"
 SciTELua,"C:\Program Files (x86)\Lua\5.1\SciTE\SciTE.exe"
+VLC,"C:\Program Files\VideoLAN\VLC\vlc.exe"
 VS19,%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 WSL64,C:\Windows\System32\wsl.exe
 WSL64ROOT,C:\Windows\System32\wsl.exe -u root

@@ -1,5 +1,5 @@
 ﻿calico,62596962,C:\___jvr_work\___workspaces\____scalajs10\calico,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++firefox#§_____url.txt§,_,_
-Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,++Foxit#[...]\postgresql-17-A4.pdf,nppp#[...]\_memo_skunk.txt
+Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,nppp#[...]\_memo_skunk.txt,_
 Cmdlinedev (!c),42895506,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
 Scala native first,51097634,[nativeFirst],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\src\main\scala,!opensession!#scala_n_first,firefox#https://scala-native.org/en/stable/
 Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
