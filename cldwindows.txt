@@ -1,13 +1,12 @@
-﻿1|--||~~|classFoxitReader
-2|--|WSL root|~~|ConsoleWindowClass
+﻿1|--|Scala3_Learn__FUNCTIONAL - sbt  consoleQuick|~~|ConsoleWindowClass
+2|--||~~|MozillaWindowClass
 
-100|--||~~|MozillaWindowClass
-101|--||~~|dopus.lister
-102|--||~~|AutoHotkeyGUI
-103|--||~~|Notepad++
-104|--||~~|Chrome_WidgetWin_1
-105|--|Microsoft Windows-Subsystem für Linux Launcher|~~|ConsoleWindowClass
-106|--||~~|EVERYTHING
+100|--||~~|AutoHotkeyGUI
+101|--||~~|Notepad++
+102|--||~~|dopus.lister
+103|--|WSL root|~~|ConsoleWindowClass
+104|--||~~|ApplicationFrameWindow
+105|--||~~|Qt5QWindowIcon
 
 0|--||~~|#32770
 0|--||~~|CEF-OSC-WIDGET

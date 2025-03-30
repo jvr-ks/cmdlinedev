@@ -1,10 +1,11 @@
-﻿calico,62596962,C:\___jvr_work\___workspaces\____scalajs10\calico,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++firefox#§_____url.txt§,_,_
-Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,nppp#[...]\_memo_skunk.txt,_
+﻿calico,1012497615,C:\___jvr_work\___workspaces\____scalajs10\calico,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++firefox#§_____url.txt§,_,_
+Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,!opensession!#skunk,_
+Functional,80096856,[scL]\__FUNCTIONAL,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_youtube,!opensession!#__FUNCTIONAL,++!externalApp!#test_curl_open.bat,_
 Cmdlinedev (!c),42895506,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
 Scala native first,51097634,[nativeFirst],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\src\main\scala,!opensession!#scala_n_first,firefox#https://scala-native.org/en/stable/
 Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
 Memo,99999999,C:\jvr_shared\_memo,dopusrt#/acmd Go C:\___jvr_work\___workspaces\1 NEWTAB OPENINRIGHT DUALPATH [...],!opensession!#memo,_
-Cats Effect consoleQuick,,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT [...],curl#[scsRest](Catseffect_consoleQuick),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
+Cats Effect consoleQuick,1012497615,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT [...],curl#[scsRest](Catseffect_consoleQuick),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
 Laminar,,[scjs10]\_laminar,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT [...]\_laminar\project,++++!opensession!#laminar,++firefox#§_____url.txt§,curl#http://localhost:65501/selsca?version=(Scala3-3.3.1)
 Haskell,,[wksp]\haskell,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\,firefox#§_____url.txt§,++++!opensession!#haskell,++++curl#[scsRest](Haskell)
 Haskell WSL,,[wksp]\haskell,curl#[scsRest](Haskell_$WSL$),++++dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\,++!opensession!#haskell
@@ -31,12 +32,12 @@ Scala-js_1.0,,[jvrwrk]\___workspaces\____scalajs10,firefox#§_____url.txt§,dopu
 Threejs,,[sjs]\threejs,dopusrt#[dopus2_hidden],!opensession!#threejs,Firefox#https://threejs.org/docs/index.html°manual/en/introduction/Creating-a-scene
 LOCAL_SERVER,,[local_server],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [local_server],!opensession!#LOCAL_SERVER,firefox#§_____url.txt§
 Simpedde,,[simpedde],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [simpedde],!opensession!#simpedde
-Docker,,[docker_learn],dopusrt#/acmd Go [...]\app  NEWTAB OPENINRIGHT DUALPATH [...],firefox#§_____url.txt§,cmdlineK#cd [...],!opensession!#docker
+Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...]\app  NEWTAB OPENINRIGHT DUALPATH [...],!opensession!#docker,++!externalApp!#cmd.exe ___run.bat,_
 SuperClicker,32494822,[ahk]\superclicker,dopusrt#/acmd Go [...]  NEWTAB OPENINRIGHT DUALPATH [...]\hidden,!opensession!#superclicker
 Systemcheck,,[ahk]\systemcheck,dopusrt#[dopus2_hidden],!opensession!#systemcheck
 Servercheck,,[ahk]\servercheck,dopusrt#[dopus2_hidden],!opensession!#servercheck
 Robo,,[jvrwrk]\_bat\robo,dopus,!opensession!#robo
-Clickandsleep (!q),,[ahk]\clickandsleep,dopusrt#[dopus2_hidden],!opensession!#clickandsleep
+Clickandsleep (!q),1012394882,[ahk]\clickandsleep,dopusrt#[dopus2_hidden],!opensession!#clickandsleep
 Updater,40496532,[ahk]\updater,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [ahk]\updater\_hidden\_test,!opensession!#updater
 allfilesBetter,,[sc]\allfilesBetter,dopus,!opensession!#allfilesBetter,Swriter#[odt]\betterfiles.odt
 Selja (!j),,[ahk]\selja,dopusrt#[dopus2_hidden],!opensession!#selja

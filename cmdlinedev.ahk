@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.352"
+appVersion := "0.353"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -155,7 +155,7 @@ menuhotkeyDefault := "!c"
 exithotkeyDefault := "+!c"
 menuHotkey := menuhotkeyDefault
 exitHotkey := exithotkeyDefault
-runnerhotkeyDefault := "!r"
+runnerhotkeyDefault := "*!r"
 runnerhotkey := runnerhotkeyDefault
 runnerPath := ""
 
@@ -523,7 +523,7 @@ runInDirDefault(i, useonly){
       
       if (tool != ""){
         toRun := trim(tool . " " . parameter1 . " " . parameter2 . " " . parameter3 . " " . parameter4 . " " . parameter5 . " " . parameter6)
-        ; msgbox, % toRun
+         ; msgbox, % toRun
       } else {
         ;internal commands:
         c := StrLower(command)
@@ -595,6 +595,9 @@ runInDirDefault(i, useonly){
         if(pathSelected != "")
           toRun := StrReplace(toRun, "[...]", pathSelected)
         
+        if (getkeystate("Shift","P"))
+          msgbox, toRun: %toRun% pathSelected: %pathSelected%
+          
         Run, %toRun%, %pathSelected%, MAX
         
         if (delayAfterCommand > 0)

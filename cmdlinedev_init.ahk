@@ -234,7 +234,7 @@ createDefaultConfig(fn){
 [hotkeys]
 menuhotkey=!c
 exithotkey=+!c
-runnerhotkey=!r
+runnerhotkey=*!r
 
 [timing]
 hintTimeShort=1500

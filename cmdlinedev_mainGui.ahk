@@ -356,9 +356,16 @@ rundev(){
 
   if(pathSelected != ""){
     p := cvtPath(runnerPath)
+    
+    if (getkeystate("Shift","P"))
+      msgbox, toRun: %p% pathSelected: %pathSelected%
+    
     run, %p%, %pathSelected%, MAX
   } else {
     if (InStr(runnerPath, ":")){ ; absolut path?
+      if (getkeystate("Shift","P"))
+        msgbox, toRun: %p%
+      
       run, %p%,, MAX
     } else {
       msgbox, Please run a command first (to set the path)!
