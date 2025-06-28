@@ -360,15 +360,9 @@ rundev(){
   if(pathSelected != ""){
     p := cvtPath(runnerPath)
     
-    if (GetKeyState("CapsLock", "T"))
-      msgbox, toRun: %p% pathSelected: %pathSelected%
-    
     run, %p%, %pathSelected%, MAX
   } else {
     if (InStr(runnerPath, ":")){ ; absolut path?
-      if (GetKeyState("CapsLock", "T"))
-        msgbox, toRun: %p%
-      
       run, %p%,, MAX
     } else {
       msgbox, Please run a command first (to set the path)!

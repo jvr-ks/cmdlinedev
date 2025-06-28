@@ -597,10 +597,7 @@ runInDirDefault(i, useonly){
           
         if(pathSelected != "")
           toRun := StrReplace(toRun, "[...]", pathSelected)
-        
-        if (GetKeyState("CapsLock", "T"))
-          msgbox, toRun: %toRun% pathSelected: %pathSelected%
-          
+
         Run, %toRun%, %pathSelected%, MAX
         
         if (delayAfterCommand > 0)
@@ -665,6 +662,7 @@ runInDirDefault(i, useonly){
   hideWindow()
  }
 }
+/* 
 ;------------------------------ checkOperation ------------------------------
 checkOperation(){
   global mainHWND, hintTimeShort, hintTimeMedium, hintTime, hintTimeLong
@@ -695,6 +693,8 @@ checkOperation(){
   
   return ret
 }
+
+*/
 ;------------------------------- extractToSend -------------------------------
 extractToSend(sIn, path, ByRef sOut, ByRef delayOut){
   ; handles path etc., extracts delayN

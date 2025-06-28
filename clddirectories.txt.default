@@ -1,4 +1,4 @@
-﻿Sepp,1030799761,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt NEWTAB OPENINRIGHT DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,++++WinSCP
+﻿Sepp,1030799761,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt NEWTAB OPENINRIGHT DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,WinSCP
 Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...],!opensession!#docker,++!externalApp!#%comspec% /c .\webmin_integration\___run.bat,_
 calico,1030993853,[scjs10]\calico,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
 Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,!opensession!#skunk,_

@@ -13,7 +13,7 @@ Issue / Bug | Type | fixed in version
   
 Version (&gt;=)| Change  
 ------------ | -------------  
-0.354 | Bugfixes
+0.354 | "checkOperation" activation with CAPSLOCK removed, Bugfixes
 0.353 | Default "run" hotkey changed to "*!r" (\[Alt] + r, any modifier i.e. \[Shift] is allowed, used to show debug info)
 0.351 | FastSwitch windows file ("cldwindows.txt") is manually editable: Setup -> Edit FsWindowsFile-file
 0.347 | Configuration file folder is app folder  
@@ -526,7 +526,7 @@ Copyright (c) 2020 J. v. Roos
 
 <a name="virusscan"></a>
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1751113162
+[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1751115550
 )  
-[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1751113163
+[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1751115551
 )  
