@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.355"
+appVersion := "0.356"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -521,12 +521,12 @@ runInDirDefault(i, useonly){
       command := StrReplace(command, "+", "", count)
       tool := toolsArr[command]
       
-      if (count > 0)
-        MsgBox, Tool: %tool%, delay modifier (+) not allowed (useless!) using a tool!
-      
       if (tool != ""){
+        if (count > 0)
+          MsgBox, Tool: %tool%, delay modifier (+) not allowed (useless!) using a tool!
+      
         toRun := trim(tool . " " . parameter1 . " " . parameter2 . " " . parameter3 . " " . parameter4 . " " . parameter5 . " " . parameter6)
-         ; msgbox, % toRun
+         ;msgbox, % toRun
       } else {
         ;internal commands:
         c := StrLower(command)

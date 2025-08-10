@@ -1,8 +1,8 @@
 ﻿Atom,"C:\Users\jvr\AppData\Local\atom\atom.exe"
 Chrome,C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-cmdlineK,%comspec% /k
-cmdlineC,%comspec% /c
-cmdline,%comspec%
+cmd,cmd.exe
+cmdC,cmd.exe /c
+cmdK,cmd.exe /k
 cudatext,"C:\portabel\cudatext\cudatext.exe"
 curl,curl.exe
 dopus,""C:\Program Files\GPSoftware\Directory Opus\dopus.exe" /cmd GO "
@@ -28,3 +28,4 @@ VS19,%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
 WinSCP,"C:\Program Files (x86)\WinSCP\WinSCP.exe"
 WSL64,C:\Windows\System32\wsl.exe
 WSL64ROOT,C:\Windows\System32\wsl.exe -u root
+Wterm,wt.exe

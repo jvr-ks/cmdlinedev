@@ -7,7 +7,6 @@
 [docker_learn],C:\___jvr_work\___workspaces\___docker_learn
 [dopus2],/acmd Go [...] DUALPATH [...]
 [dopus2_hidden],/acmd Go [...] DUALPATH [...]\_hidden
-[dopus],/cmd Go [...] OPENINLEFT
 [E],{ENTER}
 [email1],"-compose ""to='info@jvr.de'^subject='cmdlinedev'^body='Hi there^ I'm using your cmdlinedev app!'"""
 [EX],exit{ENTER}

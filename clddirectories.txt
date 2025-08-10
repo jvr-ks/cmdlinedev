@@ -1,4 +1,4 @@
-﻿ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\___build_run.bat
+﻿ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,++firefox#§_____url.txt§,!externalApp!#%comspec% /c [...]\___build_run.bat
 Sepp,1030799761,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,_
 Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#docker,++!externalApp!#%comspec% /c .\webmin_integration\___run.bat,_
 calico,1030993853,[scjs10]\calico,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
@@ -9,7 +9,7 @@ Scala native first,51097634,[nativeFirst],dopusrt#/acmd Go [...] DUALPATH [...]\
 Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
 Memo,99999999,C:\jvr_shared\_memo,dopusrt#/acmd Go C:\___jvr_work\___workspaces\1 DUALPATH [...],!opensession!#memo,_
 Cats Effect consoleQuick,1030796053,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...],curl#[scsRest](Catseffect_consoleQuick),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
-Laminar,1052896735,[scjs10],dopusrt#/acmd Go [...]\_laminar DUALPATH [...]\_laminar_demo,++++!opensession!#laminar,++firefox#§_____url.txt§,_
+Laminar,1052896735,[scjs10],dopusrt#/acmd Go [...]\_laminar DUALPATH [...]\_laminar_demo,++++!opensession!#livechart,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_____url.bat,_
 Haskell,,[wksp]\haskell,dopusrt#/acmd Go [...] DUALPATH [...]\,firefox#§_____url.txt§,++++!opensession!#haskell,++++curl#[scsRest](Haskell)
 Haskell WSL,,[wksp]\haskell,curl#[scsRest](Haskell_$WSL$),++++dopusrt#/acmd Go [...] DUALPATH [...]\,++!opensession!#haskell
 Codetester,11995782,[ahk]\codetester,dopusrt#[dopus2_hidden],!opensession!#codetester,++!externalApp!#[...]\codetester.ahk,_
