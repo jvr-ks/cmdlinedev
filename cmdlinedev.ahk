@@ -781,10 +781,8 @@ openSession(){
     runparam := """" . notepadppPath . """ " 
     runparam .= "-titleAdd=" . notepadId . " " 
     runparam .= -multiInst . " "
-    ; "-openSession" opens a session, but not the correct sessionmanager way
-    ;runparam .= "-openSession" . " "
-    ;runparam .= """" . sessionfiles . sessionName . sessionfileExtension . """"
-    ;msgbox, %runparam%
+    ; "use -openSession" to open an empty session fist!
+    runparam .= "-openSession ________EMPTY.npp-session"
     run, %runparam%
     WinWait, %notepadId%,,15
     if (ErrorLevel){
