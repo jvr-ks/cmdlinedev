@@ -13,6 +13,7 @@ Issue / Bug | Type | fixed in version
   
 Version (&gt;=)| Change  
 ------------ | -------------  
+0.357 | CLI Parameter "-openSession" opens a session, but not the correct sessionmanager way!
 0.354 | "checkOperation" activation with CAPSLOCK removed, Bugfixes
 0.353 | Default "run" hotkey changed to "*!r" (\[Alt] + r, any modifier i.e. \[Shift] is allowed, used to show debug info)
 0.351 | FastSwitch windows file ("cldwindows.txt") is manually editable: Setup -> Edit FsWindowsFile-file
@@ -526,7 +527,7 @@ Copyright (c) 2020 J. v. Roos
 
 <a name="virusscan"></a>
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1754824843
+[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1761988342
 )  
-[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1754824844
+[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1761988343
 )  

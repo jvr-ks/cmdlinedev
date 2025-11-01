@@ -1,27 +1,28 @@
-﻿ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,++firefox#§_____url.txt§,!externalApp!#%comspec% /c [...]\___build_run.bat
-Sepp,1030799761,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,_
+﻿Laminar_quick-start,1052896735,[scjs10],dopusrt#/acmd Go [...]\_laminar\_quick-start DUALPATH [...]\_laminar,++++!opensession!#lm_quick-start,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_quick-start\_____url.bat,_
+Laminar,1052896733,[scjs10],dopusrt#/acmd Go [...]\_laminar DUALPATH [...]\_laminar_demo,++++!opensession!#livechart,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_____url.bat,_
+ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,++firefox#§_____url.txt§,!externalApp!#%comspec% /c [...]\___build_run.bat
+Sepp,1072794563,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,_
 Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#docker,++!externalApp!#%comspec% /c .\webmin_integration\___run.bat,_
-calico,1030993853,[scjs10]\calico,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
+calico,1071794460,[scjs10]\calico,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
 Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,!opensession!#skunk,_
 Functional,80096856,[scL]\__FUNCTIONAL,dopusrt#/acmd Go [...] DUALPATH [...]\_youtube,!opensession!#__FUNCTIONAL,++!externalApp!#test_curl_open.bat,_
 Cmdlinedev (!c),1030293023,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
 Scala native first,51097634,[nativeFirst],dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#scala_n_first,firefox#https://scala-native.org/en/stable/
 Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
 Memo,99999999,C:\jvr_shared\_memo,dopusrt#/acmd Go C:\___jvr_work\___workspaces\1 DUALPATH [...],!opensession!#memo,_
-Cats Effect consoleQuick,1030796053,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...],curl#[scsRest](Catseffect_consoleQuick),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
-Laminar,1052896735,[scjs10],dopusrt#/acmd Go [...]\_laminar DUALPATH [...]\_laminar_demo,++++!opensession!#livechart,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_____url.bat,_
+Cats Effect consoleQuick,1081194825,[sc]\catseffect,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...],curl#[scsRest](Catseffect_consoleQuick_$WT$),+++++!opensession!#catseffect,+++firefox#§_____url.txt§
 Haskell,,[wksp]\haskell,dopusrt#/acmd Go [...] DUALPATH [...]\,firefox#§_____url.txt§,++++!opensession!#haskell,++++curl#[scsRest](Haskell)
 Haskell WSL,,[wksp]\haskell,curl#[scsRest](Haskell_$WSL$),++++dopusrt#/acmd Go [...] DUALPATH [...]\,++!opensession!#haskell
 Codetester,11995782,[ahk]\codetester,dopusrt#[dopus2_hidden],!opensession!#codetester,++!externalApp!#[...]\codetester.ahk,_
 Cats Effect Test,,[catseffect-test],dopus#[catseffect-test],FireFox#https://github.com/typelevel/cats-effect-testing
 Cats Effect fs2chat,,[sc]\catseffect,dopusrt#/acmd Go [...] DUALPATH [fs2chat],curl#[scsRest](Catseffect_consoleQuick),++!opensession!#fs2chat
 Cats Effect http4s quickstart,,[sc]\http4s\quickstart,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [sc]\catseffect,curl#[scsRest](Catseffect_http4s_userguide),++!opensession!#http4s,firefox#§_____url.txt§
-sbt_console_select (!t),,[ahk]\sbt_console_select,dopusrt#[dopus2_hidden],!opensession!#sbt_console_select
 Skatstube,,[ahk]\skatstube,dopusrt#[dopus2_hidden],!opensession!#skatstube
 kontaktSupporter,61196521,[ahk]\kontaktsupporter,dopusrt#[dopus2_hidden],!opensession!#kontaktsupporter,!externalApp!#[...]\kontaktsupporter.ahk
 lang2,11997852,[ahk]\lang2,dopusrt#[dopus2],!opensession!#lang2,!externalApp!#[...]\winHttpRequest_test.ahk,_
 UnicodeTable,32584523,[ahk]\UnicodeTable,dopusrt#[dopus2_hidden],!opensession!#UnicodeTable,++!externalApp!#[...]\UnicodeTable.ahk,_
 Startdelayed,42594711,[ahk]\startdelayed,dopusrt#[dopus2_hidden],!opensession!#startdelayed,++!externalApp!#[...]\startdelayed editmode
+sbt_console_select (!t),1072598542,[ahk]\sbt_console_select,dopusrt#[dopus2_hidden],!opensession!#sbt_console_select
 Simpletools,1020793665,[ahk]\simpletools,dopusrt#[dopus2_hidden],!opensession!#simpletools
 Simpletools AutoHotkey v2 Help,32593745,[ahk]\simpletools,dopusrt#[dopus2_hidden],!opensession!#simpletools,!externalApp!#[...]\AutohotkeyHelp2.ahk,_
 chunkCopy,40993792,[ahk]\chunkCopy,dopusrt#[dopus2_hidden],!opensession!#chunkCopy,!externalApp!#[...]\chunkCopy.ahk,_
@@ -42,7 +43,7 @@ Robo,,[jvrwrk]\_bat\robo,dopus,!opensession!#robo
 Clickandsleep (!q),1012394882,[ahk]\clickandsleep,dopusrt#[dopus2_hidden],!opensession!#clickandsleep
 Updater,40496532,[ahk]\updater,dopusrt#/acmd Go [...] DUALPATH [ahk]\updater\_hidden\_test,!opensession!#updater
 allfilesBetter,,[sc]\allfilesBetter,dopus,!opensession!#allfilesBetter,Swriter#[odt]\betterfiles.odt
-Selja (!j),1030796572,[ahk]\selja,dopusrt#[dopus2_hidden],!opensession!#selja
+Selja (!j),1071797963,[ahk]\selja,dopusrt#[dopus2_hidden],!opensession!#selja
 Selsca (!p),1030796574,[ahk]\selsca,dopusrt#[dopus2_hidden],!opensession!#selsca
 Loader,,[ahk]\loader,dopusrt#[dopus2_hidden],!opensession!#loader
 ClientServerLoader,,[ahk]\clientserverloader,dopusrt#[dopus2_hidden],!opensession!#clientserverloader
@@ -81,3 +82,6 @@ Dirsaver,,[sc]\dirsaver,dopusrt#[dopus2_hidden],!opensession!#dirsaver
 PHP,,[wksp]\_php,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH 
 HKB_Convert,,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#hkb
 eMail me,,,email#[email1]
+TEST,1072596673,[sc]\catseffect,curl#[scsRest](Catseffect_consoleQuick)
+TEST,1072596672,[sc]\catseffect,curl#[scsRest](Catseffect_consoleQuick_$WT$)
+TEST,1072596671,[sc]\catseffect,curl#[scsRest](Catseffect_consoleQuick_$WSL$)

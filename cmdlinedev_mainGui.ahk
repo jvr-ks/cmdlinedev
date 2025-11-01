@@ -64,6 +64,7 @@ guiMainCreate(hide := false) {
   Menu, MainMenu, Add,Tools,:MainMenuTools
   Menu, MainMenu, Add,Insert,:MainMenuInsert
   Menu, MainMenu, Add,Update,:MainMenuUpdate
+  Menu, MainMenu, Add,Clean default,cleanDefault
   Menu, MainMenu, Add,Help,:MainMenuHelp
 
   ex := chr(0x2715)
@@ -378,6 +379,12 @@ rundevSave(){
   IniWrite, %runnerPath%, %configFile%, external, runnerPath
   showHintColored(mainHWND, "Saved: " . runnerPath, 2000)
 }
-
+;------------------------------- cleanDefault -------------------------------
+cleanDefault(){
+  ; clean Default.npp-session hack
+  if (FileExist("C:\___jvr_work\npp-sessions\            Default.npp-session")){
+    Run, %comspec% /c copy /Y "C:\___jvr_work\npp-sessions\            Default.npp-session.save" "C:\___jvr_work\npp-sessions\            Default.npp-session"
+  }
+}
 ;----------------------------------------------------------------------------
 

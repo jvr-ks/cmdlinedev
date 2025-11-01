@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.356"
+appVersion := "0.357"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -781,10 +781,12 @@ openSession(){
     runparam := """" . notepadppPath . """ " 
     runparam .= "-titleAdd=" . notepadId . " " 
     runparam .= -multiInst . " "
-    runparam .= "-openSession" . " "
-    runparam .= """" . sessionfiles . sessionName . sessionfileExtension . """"
+    ; "-openSession" opens a session, but not the correct sessionmanager way
+    ;runparam .= "-openSession" . " "
+    ;runparam .= """" . sessionfiles . sessionName . sessionfileExtension . """"
+    ;msgbox, %runparam%
     run, %runparam%
-    WinWait, %notepadId%,,10
+    WinWait, %notepadId%,,15
     if (ErrorLevel){
       run, %runparam% ; 2nd trial
     }
@@ -1073,7 +1075,7 @@ exit() {
   
   sleep, 1500
   clipboard := clipboardSave
-  
+       
   ExitApp
 }
 ;----------------------------------------------------------------------------
