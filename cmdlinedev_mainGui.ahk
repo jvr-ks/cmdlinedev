@@ -7,7 +7,7 @@ guiMainCreate(hide := false) {
   global windowPosX, windowPosY, clientWidth, clientHeight  
   global directoriesFile, toolsFile, shortcutsFile, fastSwitchHotkeysFile, configFile
   global app, appName, appVersion, appTitle
-  global menuHotkey, exithotkey, runnerhotkey, runnerPath, Edit1
+  global menuHotkey, exitHotkey, runnerhotkey, runnerPath, Edit1
   global directoriesArr, paramMaxCount, LV1, Errormessage
   global font, fontsize, emptyFieldSubstituteChar
   global fastSwitchCycleHotkey, fastSwitchCycleGroupSelected, fastSwitchCycleGroupSelectedMax, fastSwitchAutoCycleHotkeyDefault, fastSwitchAutoCycleHotkey
@@ -142,6 +142,7 @@ guiMainCreate(hide := false) {
 }
 ;------------------------------ setLastUsedName ------------------------------
 setLastUsedName(){
+; not used
   global lastUsedText
   
   GuiControl,, lastUsedText, getNameOfCurrentSelected()
@@ -154,6 +155,12 @@ getNameOfCurrentSelected() {
   directoryEntryArr := StrSplit(directoriesArr[currentSelected],",")
   
   return directoryEntryArr[1]
+}
+;--------------------------------- autoOpen ---------------------------------
+autoOpen() {
+  global currentSelected
+  
+  runInDir(currentSelected)
 }
 ;--------------------------------- LV1Modify ---------------------------------
 LV1Modify(){

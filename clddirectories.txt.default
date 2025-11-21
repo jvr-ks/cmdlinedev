@@ -1,7 +1,7 @@
 ﻿Laminar_quick-start,1052896735,[scjs10],dopusrt#/acmd Go [...]\_laminar\_quick-start DUALPATH [...]\_laminar,++++!opensession!#lm_quick-start,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_quick-start\_____url.bat,_
 Laminar,1052896733,[scjs10],dopusrt#/acmd Go [...]\_laminar DUALPATH [...]\_laminar_demo,++++!opensession!#livechart,cmdC#C:\___jvr_work\___workspaces\____scalajs10\_laminar\_____url.bat,_
 ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,++firefox#§_____url.txt§,!externalApp!#%comspec% /c [...]\___build_run.bat
-Sepp,1072794563,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\openCX31.bat,_
+Sepp,1072794563,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt\dmd DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\dmd\_______CX31.bat,_
 Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#docker,++!externalApp!#%comspec% /c .\webmin_integration\___run.bat,_
 calico,1071794460,[scjs10]\calico,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
 Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,!opensession!#skunk,_

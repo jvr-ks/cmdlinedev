@@ -13,6 +13,7 @@ Issue / Bug | Type | fixed in version
   
 Version (&gt;=)| Change  
 ------------ | -------------  
+0.358 | Autostart the last used selection hotkey (like the "open button") **\[CTRL] +\[ALT] + \[c]**  
 0.357 | Copy the file "________EMPTY.npp-session" to your session directory!
 0.354 | "checkOperation" activation with CAPSLOCK removed, Bugfixes
 0.353 | Default "run" hotkey changed to "*!r" (\[Alt] + r, any modifier i.e. \[Shift] is allowed, used to show debug info)
@@ -129,8 +130,9 @@ File encoding of **"\*.txt"** files is: **UTF-8 (with BOM)**,
 Configuration file-Section [hotkeys]:  
 Hotkeys can be set to "off" by adding the word "off" to the definition.  
 The two app-hotkeys defaults are:  
-menuhotkey="!c", i.e. \[ALT] + \[c] to show the app-window  
-exithotkey="+!c", i.e. \[SHIFT] + \[ALT] + \[c] to exit the app and remove it from memory  
+menuHotkey="!c", i.e. \[ALT] + \[c] to show the app-window  
+menuOpenHotkey="^!c", i.e. \[CTRL] + \[ALT] + \[c] autostart the last used selection (like the "open button")
+exitHotkey="+!c", i.e. \[SHIFT] + \[ALT] + \[c] to exit the app and remove it from memory  
 (you may use the button "Kill the app" also)  
   
 Primary hotkey modifiers:  
@@ -169,6 +171,7 @@ Hint: Using the Shift + click edit operation the value of the "Latest" field can
 Hotkey | Action  
 ------------ | -------------  
 **\[ALT] + \[c]** | open app-window  
+**\[CTRL] +\[ALT] + \[c]** | autostart the last used selection (like the "open button")  
 **\[SHIFT] + \[ALT] + \[c]** | remove app from memory  
 **\[ALT] + \[r]** | Run any file defined in the field "Run external app" (used to run the "*.ahk"-file) \*1)  
   
@@ -530,7 +533,7 @@ Copyright (c) 2020 J. v. Roos
 
 <a name="virusscan"></a>
 ##### Virusscan at Virustotal 
-[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1761989722
+[Virusscan at Virustotal, cmdlinedev.exe 64bit-exe, Check here](https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1763738853
 )  
-[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1761989723
+[Virusscan at Virustotal, cmdlinedev32.exe 32bit-exe, Check here](https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1763738855
 )  

@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.357"
+appVersion := "0.358"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -151,10 +151,12 @@ notepadppPathDefault := "C:\Program Files\Notepad++\notepad++.exe"
 showActiveTitle := true
 notepadppPath := notepadppPathDefault
 
-menuhotkeyDefault := "!c"
-exithotkeyDefault := "+!c"
-menuHotkey := menuhotkeyDefault
-exitHotkey := exithotkeyDefault
+menuHotkeyDefault := "!c"
+menuOpenHotkeyDefault := "^!c"
+exitHotkeyDefault := "+!c"
+menuHotkey := menuHotkeyDefault
+menuOpenHotkey := menuOpenHotkeyDefault
+exitHotkey := exitHotkeyDefault
 runnerhotkeyDefault := "*!r"
 runnerhotkey := runnerhotkeyDefault
 runnerPath := ""

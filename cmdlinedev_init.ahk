@@ -133,7 +133,8 @@ initFastSwitch(){
 }
 ;-------------------------------- readConfig --------------------------------
 readConfig(){
-  global configFile, menuhotkeyDefault, menuHotkey, exithotkeyDefault, exithotkey, runnerhotkeyDefault, runnerhotkey
+  global configFile, menuHotkeyDefault, menuHotkey, menuOpenHotkeyDefault, menuOpenHotkey
+  global exitHotkeyDefault, exitHotkey, runnerhotkeyDefault, runnerhotkey
   global fontDefault, font, fontsizeDefault, fontsize, emptyFieldSubstituteChar
   global notepadppPath, notepadppPathDefault, runnerPath
   global hintTimeShort, hintTimeShortDefault, hintTimeMedium, hintTimeMediumDefault, hintTime, hintTimeDefault, hintTimeLong, hintTimeLongDefault
@@ -153,20 +154,28 @@ readConfig(){
   waitForEditReady := iniReadSave("waitForEditReady", "config", 1000)
   waitDokListOpenLoop := iniReadSave("waitDokListOpenLoop", "config", 1000)
 
-  menuHotkey := iniReadSave("menuHotkey", "config", menuhotkeyDefault)
-  if (InStr(menuHotkey, "off") > 0){
-    s := StrReplace(menuHotkey, "off", "")
+  menuhotkey := iniReadSave("menuHotkey", "config", menuHotkeyDefault)
+  if (InStr(menuhotkey, "off") > 0){
+    s := StrReplace(menuhotkey, "off", "")
     Hotkey, %s%, showWindowRefreshed, off
   } else {
-    Hotkey, %menuHotkey%, showWindowRefreshed, "T1"
+    Hotkey, %menuhotkey%, showWindowRefreshed, "T1"
   }
 
-  exitHotkey := iniReadSave("exitHotkey", "config", exithotkeyDefault)
-  if (InStr(exitHotkey, "off") > 0){
-    s := StrReplace(exitHotkey, "off", "")
+  menuopenhotkey := iniReadSave("menuOpenHotkey", "config", menuOpenHotkeyDefault)
+  if (InStr(menuopenhotkey, "off") > 0){
+    s := StrReplace(menuopenhotkey, "off", "")
+    Hotkey, %s%, runLastUsed, off
+  } else {
+    Hotkey, %menuopenhotkey%, autoOpen, "T1"
+  }
+  
+  exithotkey := iniReadSave("exitHotkey", "config", exitHotkeyDefault)
+  if (InStr(exithotkey, "off") > 0){
+    s := StrReplace(exithotkey, "off", "")
     Hotkey, %s%, exit, off
   } else {
-    Hotkey, %exitHotkey%, exit
+    Hotkey, %exithotkey%, exit
   }
   
   runnerhotkey := iniReadSave("runnerhotkey", "config", runnerhotkeyDefault)
@@ -232,9 +241,10 @@ createDefaultConfig(fn){
   content := "
 (
 [hotkeys]
-menuhotkey=!c
-exithotkey=+!c
-runnerhotkey=*!r
+menuHotkey=""!c""
+menuOpenHotkey=""!p""
+exitHotkey=""+!c""
+runnerhotkey=""*!r""
 
 [timing]
 hintTimeShort=1500

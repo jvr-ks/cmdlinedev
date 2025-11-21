@@ -64,42 +64,47 @@ vertical-align: middle;
 </thead>
 <tbody>
 <tr class="odd">
+<td>0.358</td>
+<td>Autostart the last used selection hotkey (like the &quot;open button&quot;)
+<strong>[CTRL] +[ALT] + [c]</strong></td>
+</tr>
+<tr class="even">
 <td>0.357</td>
 <td>Copy the file &quot;________EMPTY.npp-session&quot; to your session
 directory!</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>0.354</td>
 <td>&quot;checkOperation&quot; activation with CAPSLOCK removed, Bugfixes</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>0.353</td>
 <td>Default &quot;run&quot; hotkey changed to &quot;*!r&quot; ([Alt] + r, any modifier i.e.
 [Shift] is allowed, used to show debug info)</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>0.351</td>
 <td>FastSwitch windows file (&quot;cldwindows.txt&quot;) is manually editable:
 Setup -&gt; Edit FsWindowsFile-file</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>0.347</td>
 <td>Configuration file folder is app folder</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>0.344</td>
 <td>Complete change of the way the entries are selected!</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>0.342</td>
 <td>&quot;Fastswitch-Cycle feature&quot; removed!</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>0.339</td>
 <td>&quot;Run external app&quot; execution path extracted from path of the
 external app.</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>0.338</td>
 <td>&quot;Run external app&quot; input box is editable, EOL bug fixed.</td>
 </tr>
@@ -224,9 +229,10 @@ Shortcuts-file <strong>&quot;cldshortcuts.txt&quot;</strong>,</p>
 Hotkeys can be set to &quot;off&quot; by adding the word &quot;off&quot; to the
 definition.<br />
 The two app-hotkeys defaults are:<br />
-menuhotkey=&quot;!c&quot;, i.e. [ALT] + [c] to show the app-window<br />
-exithotkey=&quot;+!c&quot;, i.e. [SHIFT] + [ALT] + [c] to exit the app and remove
-it from memory<br />
+menuHotkey=&quot;!c&quot;, i.e. [ALT] + [c] to show the app-window<br />
+menuOpenHotkey=&quot;^!c&quot;, i.e. [CTRL] + [ALT] + [c] autostart the last used
+selection (like the &quot;open button&quot;) exitHotkey=&quot;+!c&quot;, i.e. [SHIFT] +
+[ALT] + [c] to exit the app and remove it from memory<br />
 (you may use the button &quot;Kill the app&quot; also)</p>
 <p>Primary hotkey modifiers:</p>
 <table>
@@ -320,10 +326,14 @@ double-clicking:</strong></p>
 <td>open app-window</td>
 </tr>
 <tr class="even">
+<td><strong>[CTRL] +[ALT] + [c]</strong></td>
+<td>autostart the last used selection (like the &quot;open button&quot;)</td>
+</tr>
+<tr class="odd">
 <td><strong>[SHIFT] + [ALT] + [c]</strong></td>
 <td>remove app from memory</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td><strong>[ALT] + [r]</strong></td>
 <td>Run any file defined in the field &quot;Run external app&quot; (used to run
 the &quot;*.ahk&quot;-file) *1)</td>
@@ -731,9 +741,9 @@ LICENSE</h4>
 <p>Copyright (c) 2020 J. v. Roos</p>
 <p><a name="virusscan"></a></p>
 <h5 id="virusscan-at-virustotal">Virusscan at Virustotal</h5>
-<p><a href="https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1761989722">Virusscan
+<p><a href="https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1763738853">Virusscan
 at Virustotal, cmdlinedev.exe 64bit-exe, Check here</a><br />
-<a href="https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1761989723">Virusscan
+<a href="https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1763738855">Virusscan
 at Virustotal, cmdlinedev32.exe 32bit-exe, Check here</a></p>
 </body>
 </html>
