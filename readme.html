@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Readme</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">html {color: #1a1a1a;background-color: #fdfdfd;}body {margin: 0 auto;padding-left: 20px;padding-right: 20px;padding-top: 20px;padding-bottom: 20px;hyphens: auto;overflow-wrap: break-word;text-rendering: optimizeLegibility;font-kerning: normal;}@media (max-width: 600px) {body {font-size: 0.9em;padding: 12px;}h1 {font-size: 1.8em;}}@media print {html {background-color: white;}body {background-color: transparent;color: black;font-size: 12pt;}p, h2, h3 {orphans: 3;widows: 3;}h2, h3, h4 {page-break-after: avoid;}}p {margin: 1em 0;}a {color: #1a1a1a;}a:visited {color: #1a1a1a;}img {max-width: 100%;}h1, h2, h3, h4, h5, h6 {margin-top: 1.4em;}h5, h6 {font-size: 1em;font-style: italic;}h6 {font-weight: normal;}ol, ul {padding-left: 1.7em;margin-top: 1em;}li > ol, li > ul {margin-top: 0;}blockquote {margin: 1em 0 1em 1.7em;padding-left: 1em;border-left: 2px solid #e6e6e6;color: #606060;}code {font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;font-size: 85%;margin: 0;hyphens: manual;}pre {margin: 1em 0;overflow: auto;}pre code {padding: 0;overflow: visible;overflow-wrap: normal;}.sourceCode {background-color: transparent;overflow: visible;}hr {background-color: #1a1a1a;border: none;height: 1px;margin: 1em 0;}table {margin: 1em 0;border-collapse: collapse;width: 100%;overflow-x: auto;display: block;font-variant-numeric: lining-nums tabular-nums;}table caption {margin-bottom: 0.75em;}tbody {margin-top: 0.5em;border-top: 1px solid #1a1a1a;border-bottom: 1px solid #1a1a1a;}th {border-top: 1px solid #1a1a1a;padding: 0.25em 0.5em 0.25em 0.5em;}td {padding: 0.125em 0.5em 0.25em 0.5em;}header {margin-bottom: 4em;text-align: center;}#TOC li {list-style: none;}#TOC ul {padding-left: 1.3em;}#TOC > ul {padding-left: 0;}#TOC a:not(:hover) {text-decoration: none;}code{white-space: pre-wrap;}span.smallcaps{font-variant: small-caps;}div.columns{display: flex; gap: min(4vw, 1.5em);}div.column{flex: auto; overflow-x: auto;}div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}ul.task-list{list-style: none;}ul.task-list li input[type="checkbox"] {width: 0.8em;margin: 0 0.8em 0.2em -1.6em;vertical-align: middle;}.display.math{display: block; text-align: center; margin: 0.5rem auto;}table{background-color:#fafafa}table tr td{border:1px solid #e6e6e6}table tr:nth-child(2n){background-color:#f2f2f2}</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Readme</h1>
+</header>
+<h1 id="cmdlinedev">CmdLineDev</h1>
+<p>Somewhat old AHK 1 code</p>
+<h4 id="known-issues--bugs">Known issues / bugs</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Issue / Bug</th>
+<th>Type</th>
+<th>fixed in version</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><del>&quot;!externalApp!&quot; command is not executed</del></td>
+<td>bug</td>
+<td>0.337</td>
+</tr>
+<tr class="even">
+<td><del>open the Document List sometimes fails</del></td>
+<td>issue</td>
+<td>0.334</td>
+</tr>
+</tbody>
+</table>
+<h4 id="latest-changes">Latest changes:</h4>
+<table>
+<thead>
+<tr class="header">
+<th>Version (&gt;=)</th>
+<th>Change</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.359</td>
+<td>Autostart the last used selection default hotkey changed to
+<strong>[WIN] + [ALT] + [c]</strong></td>
+</tr>
+<tr class="even">
+<td>0.357</td>
+<td>Copy the file &quot;________EMPTY.npp-session&quot; to your session
+directory!</td>
+</tr>
+<tr class="odd">
+<td>0.354</td>
+<td>&quot;checkOperation&quot; activation with CAPSLOCK removed, Bugfixes</td>
+</tr>
+<tr class="even">
+<td>0.353</td>
+<td>Default &quot;run&quot; hotkey changed to &quot;*!r&quot; ([Alt] + r, any modifier i.e.
+[Shift] is allowed, used to show debug info)</td>
+</tr>
+<tr class="odd">
+<td>0.351</td>
+<td>FastSwitch windows file (&quot;cldwindows.txt&quot;) is manually editable:
+Setup -&gt; Edit FsWindowsFile-file</td>
+</tr>
+<tr class="even">
+<td>0.347</td>
+<td>Configuration file folder is app folder</td>
+</tr>
+<tr class="odd">
+<td>0.344</td>
+<td>Complete change of the way the entries are selected!</td>
+</tr>
+<tr class="even">
+<td>0.342</td>
+<td>&quot;Fastswitch-Cycle feature&quot; removed!</td>
+</tr>
+<tr class="odd">
+<td>0.339</td>
+<td>&quot;Run external app&quot; execution path extracted from path of the
+external app.</td>
+</tr>
+<tr class="even">
+<td>0.338</td>
+<td>&quot;Run external app&quot; input box is editable, EOL bug fixed.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="changes-from-version--0357">Changes from version &gt;=
+0.357</h3>
+<p>Copy the file &quot;________EMPTY.npp-session&quot; to your session
+directory!</p>
+<h3 id="changes-from-version--0344">Changes from version &gt;=
+0.344</h3>
+<p>Single click: Run cmd 1 - 4 of the clicked row!<br />
+Shift + Single click: Edit the row entries.<br />
+[Alt] + [Ctrl] | move the line to a top position.<br />
+The [Alt] + [Win]+ [Ctrl] modifier is removed.</p>
+<h3 id="changes-from-version--0342">Changes from version &gt;=
+0.342</h3>
+<p>&quot;Fastswitch-Cycle feature&quot; removed!<br />
+(But Fastswitch hotkeys are of course still usable, definition file is
+&quot;cldfastswitchhotkeys.txt&quot;)</p>
+<h3 id="changes-from-version--0325">Changes from version &gt;=
+0.325</h3>
+<p>It was not a good idea to use simple hotkeys to open rarely used
+apps.</p>
+<ul>
+<li>Nearly all apps need a startparameter, for example a browser needs
+an URL, an editor needs a FILENAME etc.</li>
+<li>The hotkeys are globally active and cannot be used by other apps
+thow.</li>
+</ul>
+<p>Use notepadd++, open &quot;clddirectories.txt&quot;, press Ctrl+F, change
+&quot;Search Mode&quot; to Regex:<br />
+Find: \n.*?,<br />
+Replace: $0,<br />
+Repeat until the end.</p>
+<p>The new column is called &quot;Latest&quot;.<br />
+&quot;Latest&quot; is the default sort column now (descending).<br />
+The values are the seconds passed since 2024/02/01/16:54:00.<br />
+A simple mechanism to move the entries of current interest to the top of
+the table!<br />
+<del>The value is set by a mouse-drag (up or down) onto a line entry in
+the table.</del><br />
+Double click a row to move the selected entry to the top!<br />
+(By setting the &quot;Latest&quot;-field).</p>
+<p>The &quot;Latest&quot;-field can be set manually also (Edit: SHIFT +
+Click).</p>
+<h4 id="download">Download</h4>
+<p>Via Updater is the preferred method!<br />
+Portable, run from any directory, but running from a subdirectory of the
+windows programm-directories<br />
+(C:\Program Files, C:\Program Files (x86) etc.)<br />
+requires admin-rights and is not recommended!<br />
+<strong>Installation-directory (is created by the Updater) must be
+writable by the app!</strong></p>
+<p>To download <strong>CmdLineDev</strong> from Github please use:</p>
+<p>Windows, 64bit: <a href="https://github.com/jvr-ks/cmdlinedev/raw/main/updater.exe">updater.exe</a><br />
+Windows, 32bit: <a href="https://github.com/jvr-ks/cmdlinedev/raw/main/updater32.exe">updater.exe</a></p>
+<p><strong>Be sure to use only one of the *.exe at a time!</strong></p>
+<p>(Updater viruscheck please look at the <a href="https://github.com/jvr-ks/updater">Updater repository</a>)</p>
+<ul>
+<li>From time to time there are some false positiv virus
+detections<br />
+<a href="#virusscan">Virusscan</a> at Virustotal see below.</li>
+</ul>
+<h3 id="app-start">App-start</h3>
+<p><strong>cmdlinedev.exe</strong> 64 bit Windows<br />
+<strong>cmdlinedev32.exe</strong> 32 bit Windows</p>
+<p>Alternatives to start CmdLineDev:</p>
+<ul>
+<li>A doubleclick onto the file &quot;cmdlinedev.exe&quot; (or other
+version).</li>
+<li>Drag the &quot;cmdlinedev.exe&quot; (or other version) to the taskbar.</li>
+</ul>
+<p>Start with Windows:</p>
+<ul>
+<li>To create a shortcut of &quot;cmdlinedev.exe&quot; in the windows-autostart
+folder (&quot;shell:startup&quot;),<br />
+run the simple Powershell script:<br />
+&quot;create_cmdlinedev_exe_link_with_in_autostartfolder.bat&quot;, or<br />
+take a look at the project <a href="https://github.com/jvr-ks/startdelayed">startdelayed</a>.</li>
+</ul>
+<p>Self remove from memory: cmdlinedev.exe remove</p>
+<p>The app runs in the background after startup.<br />
+(Can be disabled by a &quot;showwindow&quot; start-parameter).</p>
+<p><strong>Please press the hotkey (default is: [Alt] + [c]) to show the
+app-window!</strong></p>
+<h3 id="description">Description</h3>
+<p>This app can be used to do multible operations by a single click *1)
+on an entry in the list.<br />
+I use it to open a filemanager, an editor and other (up to 4) with a
+file-selection in a distinct directory.<br />
+When the focus is lost, it is hidden and runs as a background
+process.<br />
+It can be activated again via the menu-hotkey ([ALT] + [c] is
+default),<br />
+but is NOT listed in the Windows tasklist, i.e. [ALT + TAB] or [WIN +
+TAB].</p>
+<p>Inspired by my own tool &quot;sbt_console_select&quot; I wrote this small tool,
+using Autohotkey.<br />
+The advantages over other solutions (desktop icons, batch scripts, etc.)
+are:</p>
+<ul>
+<li>easy maintainability,<br />
+the entries are in a simple textfile (the ([Directories-file]) Menu
+-&gt; Edit,</li>
+<li>fast access via hotkey,</li>
+<li>can send additional parameters after an operation (an app / a
+program) is started.</li>
+</ul>
+<h3 id="configuration-file">Configuration file</h3>
+<p>The Configuration file is: <strong>cmdlinedev.ini</strong></p>
+<p>File encoding of <strong>&quot;*.ini&quot;</strong> files is: <strong>UTF-16 LE
+BOM</strong>.</p>
+<p>Other data files used:<br />
+Directories-file <strong>&quot;clddirectories.txt&quot;</strong>,<br />
+Tools-file <strong>&quot;cldtools.txt&quot;</strong>,<br />
+Shortcuts-file <strong>&quot;cldshortcuts.txt&quot;</strong>,</p>
+<p>File encoding of <strong>&quot;*.txt&quot;</strong> files is: <strong>UTF-8
+(with BOM)</strong>,</p>
+<h4 id="configuration-file-sections">Configuration file sections</h4>
+<p>Configuration file-Section [hotkeys]:<br />
+Hotkeys can be set to &quot;off&quot; by adding the word &quot;off&quot; to the
+definition.<br />
+The two app-hotkeys defaults are:<br />
+menuHotkey=&quot;!c&quot;, i.e. [ALT] + [c] to show the app-window<br />
+menuOpenHotkey=&quot;^!c&quot;, i.e. [CTRL] + [ALT] + [c] autostart the last used
+selection (like the &quot;open button&quot;) exitHotkey=&quot;+!c&quot;, i.e. [SHIFT] +
+[ALT] + [c] to exit the app and remove it from memory<br />
+(you may use the button &quot;Kill the app&quot; also)</p>
+<p>Primary hotkey modifiers:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Hotkey prefix</th>
+<th>Modifier Key</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>!</td>
+<td>[ALT]</td>
+</tr>
+<tr class="even">
+<td>^</td>
+<td>[CTRL]</td>
+</tr>
+<tr class="odd">
+<td>#</td>
+<td>[WIN]</td>
+</tr>
+<tr class="even">
+<td>+</td>
+<td>[SHIFT]</td>
+</tr>
+</tbody>
+</table>
+<p>Other <a href="https://www.autohotkey.com/docs/Hotkeys.htm">Autohotkey
+Hotkeys</a> hotkeys-characters are usable,<br />
+but are untested.<br />
+Only simple hotkeys are good to remember and fast to access!<br />
+If no Configuration file is found at all,<br />
+a default one is always created!</p>
+<h3 id="mouseclick-operations-in-the-app-window">Mouseclick operations
+in the app-window</h3>
+<p><strong>Command modifier, holding down key while
+double-clicking:</strong></p>
+<table>
+<thead>
+<tr class="header">
+<th>Key</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>[Click]</td>
+<td>Highlight the line entry</td>
+</tr>
+<tr class="even">
+<td>[Ctrl]</td>
+<td>Execute first command only</td>
+</tr>
+<tr class="odd">
+<td>[Alt]</td>
+<td>Execute second command only</td>
+</tr>
+<tr class="even">
+<td>[Ctrl] + [Shift]</td>
+<td>Execute third command only</td>
+</tr>
+<tr class="odd">
+<td>[Alt] + [Shift]</td>
+<td>Execute fourth command only</td>
+</tr>
+<tr class="even">
+<td>[Shift]</td>
+<td>Edit the entry</td>
+</tr>
+<tr class="odd">
+<td>[Alt] + [Ctrl]</td>
+<td>move the line to a top position</td>
+</tr>
+</tbody>
+</table>
+<p>Hint: Using the Shift + click edit operation the value of the
+&quot;Latest&quot; field can be changed, but not deleted!</p>
+<h4 id="hotkeys">Hotkeys</h4>
+<p>(fastswitch hotkeys see below)</p>
+<table>
+<thead>
+<tr class="header">
+<th>Hotkey</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>[ALT] + [c]</strong></td>
+<td>open app-window</td>
+</tr>
+<tr class="even">
+<td><strong>[WIN] +[ALT] + [c]</strong></td>
+<td>autostart the last used selection</td>
+</tr>
+<tr class="odd">
+<td><strong>[SHIFT] + [ALT] + [c]</strong></td>
+<td>remove app from memory</td>
+</tr>
+<tr class="even">
+<td><strong>[ALT] + [r]</strong></td>
+<td>Run any file defined in the field &quot;Run external app&quot; (used to run
+the &quot;*.ahk&quot;-file) *1)</td>
+</tr>
+</tbody>
+</table>
+<p>*1) The &quot;Run external app&quot;-field can be manually set or by the cmd:
+&quot;!externalApp!#&gt;DIRECTORY&lt;&amp;gt;FILENAME&lt;&quot;<br />
+Example &quot;clddirectories.txt&quot;-entry, cmd4:
+&quot;!externalApp!#[ahk]\aottext\aottext.ahk&quot;<br />
+[ahk] is a shortcut of a directory defined in the file
+&quot;cldshortcuts.txt&quot;</p>
+<p><strong>Hotkeys are configurable</strong> -&gt; Configuration
+file.</p>
+<p><a href="https://www.autohotkey.com/docs/Hotkeys.htm">Hotkey modifier
+symbols</a> .<br />
+<a href="https://github.com/jvr-ks/simpletools">Convert pressed keys to
+Hotkey-code: hotkeyConverter2</a> <a href="https://github.com/jvr-ks/simpletools/raw/main/hotkeyConverter2">Direct
+download hotkeyConverter2.exe</a> .<br />
+Only simple Hotkeys are shown in the app-window text
+(Cycle-entries).<br />
+(Parsing is limited to [CTRL], [ALT], [WIN], [SHIFT]).</p>
+<h4 id="run-external-app">Run external app</h4>
+<p>(Default Hotkey: [ALT] + [r])<br />
+Fast start of the &quot;app under construction&quot;!<br />
+Saved to the Configuration file [external] -&gt; runnerPath=<br />
+The Edit-Box must contain the full pathname,<br />
+but can be set via the &quot;!externalApp!&quot; command using the defined
+cldshortcuts,<br />
+cmd entry example:</p>
+<pre><code>!externalApp!#[ahk]\lang2\_____test.ahk</code></pre>
+<p>which is expanded to the full path.</p>
+<h4 id="directories-file-clddirectoriestxt">Directories-file
+<strong>&quot;clddirectories.txt&quot;</strong>:</h4>
+<p>contains on each line separated by a comma:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Name</th>
+<th>Dir</th>
+<th>Cmd1</th>
+<th>Cmd2 ... Cmd5</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>The name of the enty</strong></td>
+<td>the working-directory *1)</td>
+<td>1st tool/command to open in that directory[#parameter1#parameter2
+... #parameter6]</td>
+<td>2nd tool *2) *3)</td>
+</tr>
+</tbody>
+</table>
+<p>*1) optional, besides the command-line, nearly all apps/programs
+ignore this entry but take the 1st parameter as a dirctory.<br />
+*2) The number of tools/commands is not limited, but only 5 are
+displayed in the list.<br />
+*3) [...] is an alias for the working directory.</p>
+<p>Tools are executed from left to right. Each tool/command can have up
+to 6 parameters, separated by a &quot;#&quot;-character.</p>
+<p>Hints:</p>
+<ul>
+<li><p>ActualURL mechanism:<br />
+Use &quot;firefox#§_____url.txt§&quot; as an Directories-file entry.<br />
+Create a file &quot;_____url.txt&quot; containing the URL.</p></li>
+<li><p>To open multiple urls with Firefox use: FireFox#url1 url2 url3
+...</p></li>
+<li><p>Add FireFox, &quot;C:\Program Files\Mozilla Firefox\firefox.exe&quot;<br />
+to &quot;cldtools.txt&quot;, if it is not already included.</p></li>
+<li><p>Content may be read from a text-file located in the
+working-directory (or in the app-directory, if the &quot;Dir&quot; is
+empty).<br />
+Specify the filename as a parameter surrounded by &quot;§&quot;-characters,
+example: FireFox#§myhomepage.txt§.</p></li>
+<li><p>Environment-variable are also usable, i.e.
+showmessage#%USERNAME%~5<br />
+Displays the username for about 5 seconds.</p></li>
+</ul>
+<p>URL-Restriction:<br />
+If a parameter (namely URL) contains a &quot;#&quot;-character,<br />
+replace it with a &quot;°&quot;-character!</p>
+<p>Special <strong>SEND-parameter</strong>:<br />
+If the parameter is of the form &quot;#value~number&quot;,<br />
+the <strong>value</strong> is sended to the running tool with a
+<strong>number</strong> delay (seconds) afterwards. There is an hard
+coded initial delay of 3 seconds after the tool is started.<br />
+&quot;#value~0&quot; waits for the user to press the <strong>Alt-key</strong> and
+the <strong>Control-key</strong>.<br />
+(&quot;#value~&quot; is not allowed!)</p>
+<p>The characters &quot;^,+,!,{,}&quot; have a <a href="https://www.autohotkey.com/docs/commands/Send.htm">special
+meaning</a>,<br />
+and must be escaped with {}.<br />
+The characters:<br />
+&quot;,&quot; &quot;#&quot; &quot;~&quot; cannot be used at all, because they are used by the app as
+delimiter-characters!</p>
+<p>Use the Paragraph-character as an alias for a comma!</p>
+<p>It is easier to use the <strong>text-mode</strong>, just prepend the
+send-value with <strong>&quot;{text}&quot;</strong>.<br />
+You cannot send an [ENTER]-key in text-mode,<br />
+instead use an additional SEND-parameter to send an [ENTER]-key,<br />
+Examples:</p>
+<pre><code>notepad#{text}Hello world!\~1#[E]\~1#by by{!}[E](Press Ctrl-key)\~0#!d\~2#b\~2#n\~1  </code></pre>
+<ul>
+<li>Opens &quot;Notepad&quot; sends &quot;Hello world!&quot; in text-mode,</li>
+<li>sends ENTER-Key,</li>
+<li>sends &quot;by by&quot;, ENTER-key and &quot;(Press Ctrl-key)&quot;, 0 = waits for
+Ctrl-key (exclamation mark must be escaped if not in text-mode),</li>
+<li>sends Alt + d, waits 2 sconds,</li>
+<li>sends b, waits 2 seconds</li>
+<li>sends n, waits 1 second</li>
+</ul>
+<h4 id="tools-file-cldtoolstxt">Tools-file
+<strong>&quot;cldtools.txt&quot;</strong>:</h4>
+<p>contains on each line separated by a comma:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Entry1</th>
+<th>Entry2</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>name of the tool</td>
+<td>path to open it</td>
+</tr>
+</tbody>
+</table>
+<p>Add an extra &quot;%comspec% /k&quot; to keep a shell window open.<br />
+(like the VS19 entry) in the Tools-file.<br />
+Use quotation marks arround an entry, if extra parameters are
+appended.</p>
+<p>Example:<br />
+filemanager,%SystemRoot%\explorer.exe<br />
+[SystemRoot = windir]</p>
+<p>All commands with a paramter(s) may have a delay (seconds) added
+after execution,<br />
+format is: commandname&quot;+...+&quot;delay,<br />
+each &quot;+&quot; gives 2 seconds delay <strong>before</strong> running the
+command.<br />
+Example:</p>
+<pre><code>!opensession!+++++#akkatyped</code></pre>
+<p>Internal command &quot;opensession&quot;, opening session &quot;akkatyped&quot; after 10
+seconds delay.</p>
+<p>The Tools-file at github is populated with entries I use.<br />
+My file-manager is <a href="https://www.gpsoft.com.au">Directory
+Opus</a></p>
+<p>Some tools (apps/programs) need special knowledge:<br />
+Directory Opus:</p>
+<ul>
+<li>Use &quot;dopusrt.exe&quot; to open more than one tab. Read the Directory Opus
+manual.<br />
+Use shortcuts to shorten command-parameters, like
+&quot;[dopus2_hidden]&quot;,<br />
+[...] is an alias of the working directory.</li>
+</ul>
+<h4 id="shortcuts-file-cldshortcutstxt">Shortcuts-file
+<strong>&quot;cldshortcuts.txt&quot;</strong>:</h4>
+<p>Besides environment-variable-expansion,<br />
+the shortcut-mechanism allows to use shortcuts of the format
+[shortcut-key] everywhere in the Directories-file!<br />
+The Shortcuts-file can contain an unlimited number of [shortcut-key],
+[value] definition pairs.<br />
+[shortcut-key] must be alphanumeric (no symbols or special characters
+allowed) but<br />
+<strong>spaces in the value are retained!</strong><br />
+Shortcuts without a trailing backslash are more universal usable, i. e.
+with a shortcut definition of<br />
+[mydir],c:\mydir<br />
+it an be used as [mydir]\subdir1 and [mydir]_newversion\subdir1</p>
+<p>Hint: Pay attention to Windows system folder having name
+aliases,<br />
+the language name alias must be used as a shortcut, instead of the real
+folder names.<br />
+Example:<br />
+&quot;C:\Users\USER\AppData\Roaming\Microsoft\Windows\Start
+Menu\Programs\Startup&quot;<br />
+If the Windows language is set to &quot;German&quot; the folder alias is:<br />
+&quot;C:\Users\USER\AppData\Roaming\Microsoft\Windows\Startmenü\Programs\Startup&quot;</p>
+<h4 id="builtin-functions">Builtin-functions:</h4>
+<p><strong>!shell!</strong><br />
+executes a command-shell with an [ENTER] between each parameter and
+shows the result in a window.<br />
+Uses normal parameters, not &quot;send&quot;-parametes, i.e. ... ,shellWR#cd
+[tmp]#dir, ...</p>
+<p><strong>!showMessage!</strong><br />
+Shows a messagebox. Removed after time t (seconds).<br />
+Of form with delay (SEND-form), i.e. ... ,showMessage#themessage~time,
+...<br />
+Time is in seonds, minimum is 1 second.</p>
+<p><strong>!Opensession!</strong><br />
+see below</p>
+<p><strong>Examples:</strong></p>
+<pre><code>TEST 1 explorer,,filemanager#c:\tmp  </code></pre>
+<p>Open explorer in the &quot;c:\tmp&quot; directory</p>
+<pre><code>TEST 2 Show directory,,cmdline#cd \[tmp][E]\~#dir\[E]\~</code></pre>
+<p>Opens a command-shell, sends &quot;cd C:\tmp&quot; and &quot;Enter&quot; with no delay
+and then sends &quot;dir&quot;.</p>
+<pre><code>TEST 3,,notepad#test start^[E]\~3#test 2^[E]\~0#test end\[E]\~5#{Ctrl Down}w{Ctrl Up}\~1#n\~1,showMessage#Command finished!\~5</code></pre>
+<ul>
+<li>Opens the windows-notepad editor,</li>
+<li>enters &quot;test start,&quot; (&quot;^&quot; is an alias for &quot;,&quot;)</li>
+<li>enters [ENTER]-key and waits 3 seconds,</li>
+<li>enters &quot;test 2,&quot;, waits eternally (press Control-key to
+continue),</li>
+<li>sends &quot;test end&quot; ad [ENTER]-key , waits 5 seconds</li>
+<li>sends notepad close commands with denying the save question,</li>
+<li>shows &quot;Command finished!&quot; message, closes after 5 seconds.</li>
+</ul>
+<h4 id="log-file">Log file</h4>
+<p>The last command is allways written to the file &quot;cldLog.bat&quot;.<br />
+Execute this file and inspect possible error-messages.</p>
+<h4 id="two-cycle-thru-the-open-app-windows-mechanism">Two cycle thru
+the open app-windows mechanism</h4>
+<p>Windows 10 has built-in cycle thru running-apps windows, accessible
+via Alt+ or Win+ or Ctrl+ Tab hotkey.<br />
+Cmdlinedev adds 3 mechanism:</p>
+<h4 id="1-fastswitch-hotkeys">1) Fastswitch hotkeys</h4>
+<p>The purpose of Fastswitch hotkeys is to fast switch between already
+open windows.<br />
+They are defined in the <strong>Hotkey-file:
+&quot;cldfastswitchhotkeys.txt&quot;</strong>.</p>
+<p>Format is: hotkey, app-title</p>
+<p>hotkey is a hotkey-definition, see <a href="https://www.autohotkey.com/docs/Hotkeys.htm">Autohotkey
+Hotkeys</a><br />
+app-title is any part of the window-title and/or any <a href="https://www.autohotkey.com/docs/misc/WinTitle.htm">other
+criteria</a> of the Window Title.<br />
+&quot;;&quot; (line is commented out) and &quot;,&quot; (is separator) are not allowed
+inside hotkey definitions.</p>
+<p>Already defined hotkeys:</p>
+<ul>
+<li>!d,ahk_class dopus.lister</li>
+<li>!n,ahk_class Notepad++</li>
+<li>!w,ahk_class Notepad++</li>
+<li>!b,Mozilla Firefox</li>
+<li>;!b,Google Chrome (Use a semicolon to comment out)</li>
+<li>!f,Foxit PDF Reader</li>
+<li>!o,OpenOffice Writer</li>
+<li>!k,ahk_group anyshell<br />
+(anyshell is a hardcoded alias of: &quot;ahk_class ConsoleWindowClass or
+ahk_class mintty&quot;)<br />
+If any hotkey is already used by another app, it is redefined and not
+usable by the other app anymore.</li>
+</ul>
+<p>To make a hotkey usable by another app, redefine it with a &quot;never
+used&quot; (but still valid) hotkey-sequence,<br />
+example: Edit the Hotkey-file and replace the line entry: !b,Mozilla
+Firefox<br />
+with:<br />
+^+#!b,Mozilla Firefox<br />
+Then edit the Configuration file (Setup -&gt; Edit Fastswitch-file) and
+replace &quot;!b&quot; with &quot;^+#!b&quot;<br />
+Looks ugly and if you want to use the hotkey directly, you have to press
+simultaneously:<br />
+[CTRL] + [SHIFT] + [WIN] + [ALT],<br />
+which is difficult to do, unless you are an alien who has a lot more
+fingers!</p>
+<p>Or use &quot;Fastswitch Auto cycle&quot; only, which is independent of any
+hotkey-definition.</p>
+<p>Hint: I use two hotkeys to select &quot;notepad++&quot;,<br />
+&quot;ALT + n&quot; is easy to remember and &quot;ALT + w&quot; is reachable with the left
+hand,<br />
+while using FastSwitch cycles with &quot;ALT + q&quot; and sometimes switching to
+Notepad++ in between!</p>
+<h4 id="2-fastswitch-hotkeys-cycle-thru-the-cycle-groups-2---9">2)
+<del>Fastswitch hotkeys cycle thru the Cycle-Groups (2 - 9)</del></h4>
+<p>Fastswitch hotkeys are ok, but cycle thru the Cycle-Groups is
+deactivated!</p>
+<p>Please use &quot;Fastswitch Auto cycle&quot; combined with &quot;Fastswitch hotkeys&quot;
+instead (below).</p>
+<h4 id="3-fastswitch-auto-cycle">3) Fastswitch Auto cycle</h4>
+<p>Another mechanism to cycle throw different windows.<br />
+It is more flexible, but has only a single group!<br />
+Uses only one hotkey (fastSwitchAutoCycleHotkey, default &quot;Alt + q&quot; =
+&quot;!q&quot;) to cycle thru the running-apps-windows (99 maximal).<br />
+Pressing the button FastSwitch: &quot;Learn&quot; adds running-apps-windows to the
+cycle-list.<br />
+(Press &quot;Clean&quot; and then &quot;Learn&quot; to get a fresh list).<br />
+The list of all running-apps-windows is kept in the file
+&quot;cldwindows.txt&quot; and can be manually edited: &quot;Edit-file&quot;-button.<br />
+Use the &quot;Edit&quot; button to arrange the entries and to mark unwanted system
+windows as inactive (permanent)!</p>
+<p>Example:<br />
+3|--|Scripts - Definition &amp; Usage | AutoHotkey - Mozilla
+Firefox|~~|MozillaWindowClass</p>
+<p>Column 1: order-number or <strong>0 if entry is inactive
+(permanently) / &gt; 99 if entry is inactive (temporary)</strong><br />
+Separator: |--|<br />
+Column 2: Title of the app-window *1)<br />
+Separator: |~~|<br />
+Column 3: Class of the app-window</p>
+<p>*1) The title (can be empty) is only used, if the Configuration
+file-entry-list &quot;fastSwitchUseTitle&quot; contains the corresponding
+class-name!<br />
+The title can consist of only parts from the title, ignoring the absent
+specifications then,<br />
+but a new &quot;Auto Cycle Learn&quot; will generate a new entry with the complete
+title then.</p>
+<p>There are some Windows internal system/hidden app-windows (language
+dependent), which must be manually inactivated once!</p>
+<p>&quot;Learn&quot; operates additive.<br />
+To start fresh, press the button &quot;Clean&quot;. It removes all active
+cycle-entries,<br />
+but keeps the temporary deactivated entries (&quot;100 and up&quot;).<br />
+the button &quot;Clean&quot; removes all inclusiv the temporary deactivated
+entries (&quot;100 and up&quot;)<br />
+Inactive entries (&quot;0 ...&quot;) are never removed! (use &quot;Edit&quot; to remove
+them).</p>
+<p>Press the button &quot;Arrange&quot; to manually arrange deactivated entries at
+the end of the list, with an empty line between.<br />
+Mark temporary-inactive entries with key &quot;&gt; 99&quot;!<br />
+Add spacer blank rows.<br />
+All entries are re-indexed and sorted.</p>
+<p>Press a button &quot;Save N&quot; to save to file &quot;_cldwindowsN.txt&quot;.<br />
+Press a button &quot;Read N&quot; to read from file &quot;_cldwindowsN.txt&quot;.</p>
+<p>Example after manually marking all system/hidden app-windows as
+inactive (&quot;0&quot;):</p>
+<pre><code>1|--||~~|Notepad++
+2|--||~~|classFoxitReader
+3|--|Scala3_Learn - sbt  consoleQuick|~~|ConsoleWindowClass
+
+100|--||~~|dopus.lister
+101|--||~~|Chrome_WidgetWin_1
+102|--||~~|MozillaWindowClass
+103|--||~~|Notepad
+
+0|--||~~|#32770
+0|--||~~|CEF-OSC-WIDGET
+0|--||~~|NarratorHelperWindow
+0|--||~~|Shell_TrayWnd
+0|--||~~|SynTrackCursorWindowClass
+0|--||~~|SysShadow
+0|--||~~|tooltips_class32
+0|--||~~|USBDLM_UsrWndClass
+0|--||~~|WindowsForms10.Window.8.app.0.ef02dc_r6_ad1</code></pre>
+<h4 id="sourcecode-autohotkey-format">Sourcecode: <a href="https://www.autohotkey.com">Autohotkey format</a></h4>
+<ul>
+<li>&quot;cmdlinedev.ahk&quot;</li>
+<li>&quot;Lib\hkToDescription&quot;</li>
+<li>&quot;Lib\hotkeyToText&quot;</li>
+</ul>
+<h4 id="requirements">Requirements</h4>
+<ul>
+<li>Windows 10 or later only.</li>
+</ul>
+<h4 id="sourcecode">Sourcecode</h4>
+<p>Github URL <a href="https://github.com/jvr-ks/cmdlinedev">github</a>.</p>
+<h4 id="hotkeys-1">Hotkeys</h4>
+<p><a href="https://github.com/jvr-ks/cmdlinedev/blob/main/hotkeys.md">Overview
+of all default Hotkeys used by my Autohotkey &quot;tools&quot;</a></p>
+<h4 id="tips">Tips</h4>
+<ul>
+<li>Open Notepad++ with cursor-position at the end of the file:<br />
+If you use sessions / Session Manager plugin:<br />
+Copy each &quot;sessionName.npp-session&quot; file to
+&quot;sessionName.npp-session.xml&quot; so you can edit it with Notepad++ (would
+open the session otherwise!).<br />
+(Or use any other plain text-editor to change the
+&quot;sessionName.npp-session&quot; file.)</li>
+</ul>
+<p>Each file which belongs to the session, has an entry of the
+form:<br />
+&lt;File firstVisibleLine=&quot;99999&quot; xOffset=&quot;0&quot; ... filename= ...
+/&gt;<br />
+(XML-format)<br />
+Change firstVisibleLine=&quot;0&quot; to firstVisibleLine=&quot;99999&quot;.</p>
+<p>Save and rename back to &quot;sessionName.npp-session&quot;.</p>
+<ul>
+<li><p>app#parameter1#parameter2 ... is different from
+app#paramter1~number1#paramter2~number2<br />
+the first starts app with parameterN (commandline-parameter), the second
+starts app with no parameter but sends parameterN<br />
+as if it where entered by the keyboard then, with delay numberN
+(seconds) between/afterwards.<br />
+If a commandline-parameter contains blanks, it must be surrounded by
+quotationmarks!</p></li>
+<li><p>After each command there is a default delay of 2 seconds.<br />
+Add multible &quot;+&quot; to the next command name, to increase the delay before
+it is executed.<br />
+Each &quot;+&quot; adds 2 seconds delay.<br />
+Example: Chrome+++#url starts Chrome with 2 + (3 * 2) = 8 seconds after
+the previous command was started.<br />
+(not after it was finished!)</p></li>
+</ul>
+<h4 id="opensession">Opensession</h4>
+<p>Open a Notepad++ session.</p>
+<p>Format:<br />
+!opensession!#sessionName or<br />
+!opensession!&lt;+ ...&gt;#sessionName<br />
+Each &quot;+&quot; adds a 2 seconds delay.</p>
+<p>&quot;!opensession!&quot; is the hardcoded command-name.<br />
+Uses [nppsess] shortcut as the path to the &quot;*.npp-session&quot;-files<br />
+and &quot;.npp-session&quot; filename-extension also (names are hardcoced, i.e.
+not changable).</p>
+<p>Open Session Manager session uses the &quot;Alt+x&quot;-hotkey!</p>
+<p><del>Session Manager contextmenu:<br />
+Cmdlinedev sets the list to &quot;sort by date&quot;!</del></p>
+<p>Foxit PDF-Reader: <a href="https://kb.foxitsoftware.com/hc/en-us/articles/360040661431-How-to-get-rid-of-the-security-warning-Foxit-Reader-PhantomPDF-has-been-opened-by-the-following-app-without-an-valid-signature-This-may-indicate-a-security-issue-">How
+to get rid of the security warning</a></p>
+<h4 id="license-gnu-general-public-license">License: GNU GENERAL PUBLIC
+LICENSE</h4>
+<p>Please take a look at <a href="https://github.com/jvr-ks/cmdlinedev/raw/main/license.txt">license.txt</a><br />
+(Hold down the [CTRL]-key to open the file in a new window/tab!)</p>
+<p>Copyright (c) 2020 J. v. Roos</p>
+<p><a name="virusscan"></a></p>
+<h5 id="virusscan-at-virustotal">Virusscan at Virustotal</h5>
+<p><a href="https://www.virustotal.com/gui/url/48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414/detection/u-48d0cae565c0027012898f66ec70aaddba01bc94d9b91d68c82361bbfe4b5414-1764321024">Virusscan
+at Virustotal, cmdlinedev.exe 64bit-exe, Check here</a><br />
+<a href="https://www.virustotal.com/gui/url/86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e/detection/u-86226d55d68d26a8dcaa92d608d573a232fc4cd2dabc3482da2ba937f07c930e-1764321025">Virusscan
+at Virustotal, cmdlinedev32.exe 32bit-exe, Check here</a></p>
+</body>
+</html>

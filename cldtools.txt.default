@@ -1,0 +1,31 @@
+﻿Atom,"C:\Users\jvr\AppData\Local\atom\atom.exe"
+Chrome,C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+cmd,cmd.exe
+cmdC,cmd.exe /c
+cmdK,cmd.exe /k
+cudatext,"C:\portabel\cudatext\cudatext.exe"
+curl,curl.exe
+dopus,""C:\Program Files\GPSoftware\Directory Opus\dopus.exe" /cmd GO "
+dopusrt,"C:\Program Files\GPSoftware\Directory Opus\dopusrt.exe"
+email,"C:\Program Files (x86)\Mozilla Thunderbird\thunderbird.exe"
+explorer,"%windir%\explorer.exe"
+FireFox,"C:\Program Files\Mozilla Firefox\firefox.exe"
+filemanager,%SystemRoot%\explorer.exe
+FileZilla,"C:\Program Files\FileZilla FTP Client\filezilla.exe"
+Foxit,"C:\Program Files (x86)\Foxit Software\Foxit Reader\FoxitPDFReader.exe"
+notepad,%windir%\system32\notepad.exe
+notepad++,"C:\Program Files\Notepad++\notepad++.exe" -multiInst
+nppp,"C:\Program Files\Notepad++\notepad++.exe" -multiInst
+pws,powershell.exe
+pwsWSL64,%SystemRoot%\System32\windowspowershell\v1.0\powershell.exe wsl.exe
+sbt,%comspec% /c sbt
+s_c_s,C:\___x2_wrk\_autohotkey\sbt_console_select\sbt_console_select.exe
+Swriter,"C:\Program Files (x86)\OpenOffice 4\program\swriter.exe"
+SciTEAHK,"C:\Program Files\AutoHotkey\SciTE\SciTE.exe"
+SciTELua,"C:\Program Files (x86)\Lua\5.1\SciTE\SciTE.exe"
+VLC,"C:\Program Files\VideoLAN\VLC\vlc.exe"
+VS19,%comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
+WinSCP,"C:\Program Files (x86)\WinSCP\WinSCP.exe"
+WSL64,C:\Windows\System32\wsl.exe
+WSL64ROOT,C:\Windows\System32\wsl.exe -u root
+Wterm,wt.exe

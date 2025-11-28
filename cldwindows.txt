@@ -1,0 +1,33 @@
+﻿1|--||~~|MozillaWindowClass
+2|--||~~|SALFRAME
+
+100|--||~~|AutoHotkeyGUI
+101|--||~~|Qt5QWindowIcon
+102|--|Scala3_Learn__FUNCTIONAL - sbt  consoleQuick|~~|ConsoleWindowClass
+103|--||~~|TSynchronizeDialog
+104|--||~~|TScpCommanderForm
+105|--||~~|TApplication
+106|--|WSL root|~~|ConsoleWindowClass
+107|--||~~|classFoxitReader
+108|--||~~|SWT_Window0
+109|--||~~|Notepad
+110|--||~~|Notepad++
+111|--|CX31|~~|ConsoleWindowClass
+112|--||~~|dopus.lister
+113|--||~~|PseudoConsoleWindow
+114|--|C:\WINDOWS\system32\cmd.exe - scala-cli  repl --dep com.lihaoyi::os-lib:0.11.3|~~|ConsoleWindowClass
+115|--||~~|ApplicationFrameWindow
+116|--||~~|CASCADIA_HOSTING_WINDOW_CLASS
+
+0|--||~~|#32770
+0|--||~~|CEF-OSC-WIDGET
+0|--||~~|Internet Explorer_Hidden
+0|--||~~|NarratorHelperWindow
+0|--||~~|Shell_TrayWnd
+0|--||~~|SynTrackCursorWindowClass
+0|--||~~|SysShadow
+0|--||~~|TheAeroClock-Clock
+0|--||~~|tooltips_class32
+0|--||~~|USBDLM_UsrWndClass
+0|--||~~|WindowsForms10.Window.8.app.0.ef02dc_r6_ad1
+0|--||~~|wxWindowNR

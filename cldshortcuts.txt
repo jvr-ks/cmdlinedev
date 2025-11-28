@@ -1,0 +1,51 @@
+﻿[acm], /acmd Go
+[ahk],C:\___x2_wrk\_autohotkey
+[allf_ni_jar],native-image -jar .\target\scala-2.13\allfilesBetter-assembly-0.003.jar
+[catseffect-test],C:\___jvr_work\___workspaces\____scala\_____LEARN\cats-effect-testing
+[catseffect],C:\___jvr_work\___workspaces\____scala\_____LEARN\cats-effect
+[DOC],C:\jvr_shared\___DOC
+[docker_learn],C:\___jvr_work\___workspaces\___docker_learn
+[dopus2],/acmd Go [...] DUALPATH [...]
+[dopus2_hidden],/acmd Go [...] DUALPATH [...]\_hidden
+[E],{ENTER}
+[email1],"-compose ""to='info@jvr.de'^subject='cmdlinedev'^body='Hi there^ I'm using your cmdlinedev app!'"""
+[EX],exit{ENTER}
+[frpl2_nativ],{text}native-image --report-unsupported-elements-at-runtime -H:+ReportExceptionStackTraces -classpath assembly.jar de.jvr.findreplace2.Findreplace2~1#[E]~1
+[fs2chat],C:\___jvr_work\___workspaces\____scala\_____LEARN\catseffect\_fs2-chat\src\main\scala\fs2chat
+[got],wp-content\themes\gospella-theme
+[Graal-11-NI]," ""C:\Program Files\Java\graalvm-ce-java11-21.0.0.2\lib\svm\bin\native-image.exe"" "
+[Graal-8-NI]," ""C:\Program Files\Java\graalvm-ce-java8-21.0.0.2\lib\svm\bin\native-image.exe"""
+[Graal-aincom], --allow-incomplete-classpath
+[Graal-ff], --force-fallback 
+[Graal-nf], --no-fallback 
+[Graal-REF], -H:ReflectionConfigurationFiles=META-INF/native-image 
+[Graal-RES], -H:ResourceConfigurationFiles=META-INF/native-image 
+[Graal-RST], -H:+ReportExceptionStackTraces 
+[hkb],C:\____Ausgelagert\_HKB
+[jvrde],C:\_jvr_de
+[jvrwrk],C:\___jvr_work
+[jvrwrksp],C:\___jvr_work\___workspace
+[local_server],C:\____LOCAL_SERVER
+[memo],C:\jvr_shared\_memo
+[native],C:\___jvr_work\___workspaces\____scala_native
+[nativeFirst],C:\___jvr_work\___workspaces\____scala_native\first
+[NOLD], NEWTAB OPENINLEFT DUALPATH
+[npdefault],-openSession -n999999
+[nppsess],C:\___jvr_work\npp-sessions
+[odt],C:\jvr_shared\___ODT
+[prg],C:\Program Files
+[pricecp],C:\___jvr_work\___workspaces\____scala\pricecompare
+[repo],/mnt/c/___jvr_wrk_from_repo
+[sc],C:\___jvr_work\___workspaces\____scala
+[scjs10],C:\___jvr_work\___workspaces\____scalajs10
+[scL],C:\___jvr_work\___workspaces\____scala\_____LEARN
+[scsRest],http://localhost:65505/scs?open=
+[shared],C:\jvr_shared
+[simpedde],C:\_simped_de
+[sjs],C:\___jvr_work\___workspaces\____scala-js
+[Startup1 german],%userprofile%\AppData\Roaming\Microsoft\Windows\Startmenü\Programs\Startup
+[Startup2 german],C:\ProgramData\Microsoft\Windows\Startmenü\Programs\StartUp
+[tmp],C:\tmp
+[windir],C:\Windows
+[wksp],C:\___jvr_work\___workspaces
+[xit],C:\___jvr_work\___workspaces\_jetty\____xitrum_server

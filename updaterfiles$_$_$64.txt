@@ -1,0 +1,10 @@
+cmdlinedev.exe
+cmdlinedev.ini,no
+clddirectories.txt,no
+cldtools.txt,no
+cldshortcuts.txt,no
+cldfastswitchhotkeys.txt,no
+cldwindows.txt,no
+quickhelp.html
+license.txt
+________EMPTY.npp-session
