@@ -13,6 +13,7 @@ Issue / Bug | Type | fixed in version
   
 Version (&gt;=)| Change  
 ------------ | -------------  
+0.361 | Menu entry "Sort file clddirectories.txt" (Name - alphabetically) and (Latest - sort numerically)
 0.360 | Row selection bug fixed
 0.359 | Autostart the last used selection default hotkey changed to **\[WIN] + \[ALT] + \[c]**  
 0.357 | Copy the file "________EMPTY.npp-session" to your session directory!
