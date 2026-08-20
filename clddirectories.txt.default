@@ -1,0 +1,101 @@
+﻿Akka Typed,1,[scL]\akkatyped,dopusrt#[dopus2_hidden],++!opensession!#akkatyped,Firefox#https://developer.lightbend.com/guides/akka-quickstart-scala/,curl#[scsRest](AkkatypedQuick)
+allfilesBetter native,1,[sc]\allfilesBetter,_,_,_,_
+allfilesBetter,2012995501,[sc]\allfilesBetter,dopus,!opensession!#allfilesBetter,odt#[odt]\betterfiles.odt,_
+Aottext,40098691,[ahk]\aottext,dopusrt#[dopus2_hidden],!opensession!#aottext,++!externalApp!#[...]\_aottextRUN.bat,_
+Asgm (Web),1,[sjs],dopusrt#[dopus2]/asgm,!opensession!#asgm
+Autostart-folder system,1,,dopusrt#[acm]#[Startup2 german]
+Autostart-folder user,1,,dopusrt#[acm]#[Startup1 german]
+betterfiles,1,[scL]\,dopus,!opensession!#testarea,Swriter#[odt]\betterfiles.odt,cmdlineK++++#test_curl_open_sbt_console.bat
+calico,2040097711,[scjs10]\calico,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,!opensession!#calico,++firefox#§_____url.txt§,++!externalApp!#%comspec% /c [...]\hello-world\___build_run.bat
+Ubuntu-touch,2020803044,C:\___jvr_work\___android\__Ubutu-touch,dopusrt#/acmd Go [...] DUALPATH [...]\,!opensession!#ubuntu-touch,cmdC#_____url.bat,_
+Decompile,2042102864,[scn]\decompile,dopusrt#/acmd Go [...] DUALPATH [...]\,!opensession!#decompile
+Cats_Effect_Cli_Snippets,2061793481,[sccecli]\a_snippets,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#catseffect-cliSnip,cmdC#_____url.bat,curl#[scsrest](Catsef-cli_snippets)
+Cats_Effect_Cli,2050095055,[sccecli],dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#catseffect-cli,cmdC#_____url.bat,_
+Cats_Effect_consoleQuick,1101196714,[sccecli],dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [...],curl#[scsRest](Catseffect_consoleQuick_$WT$),+++++!opensession!#catseffect1_200,+++firefox#§_____url.txt§
+Cats_Effect_fs2chat,1,[sccecli],dopusrt#/acmd Go [...] DUALPATH [fs2chat],curl#[scsRest](Catseffect_consoleQuick),++!opensession!#fs2chat
+Cats_Effect_http4s quickstart,1,[sc]\http4s\quickstart,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH [sccecli],curl#[scsRest](Catseffect_http4s_userguide),++!opensession!#http4s,firefox#§_____url.txt§
+Cats_Effect_Test,1,[catseffect-test],dopus#[catseffect-test],FireFox#https://github.com/typelevel/cats-effect-testing
+Cats,1,[scL]\cats,dopus,!opensession!#cats,FireFox#http://eed3si9n.com/herding-cats/sbt.html,curl#[scsRest](Cats)
+chunkCopy,40993792,[ahk]\chunkCopy,dopusrt#[dopus2_hidden],!opensession!#chunkCopy,!externalApp!#[...]\chunkCopy.ahk,_
+Clickandsleep (!q),1012394882,[ahk]\clickandsleep,dopusrt#[dopus2_hidden],!opensession!#clickandsleep
+ClientServerLoader,1,[ahk]\clientserverloader,dopusrt#[dopus2_hidden],!opensession!#clientserverloader
+Clipboardresize (+#z),1030692581,[ahk]\clipboardresize,dopusrt#[dopus2_hidden],!opensession!#clipboardresize
+Cmdlinedev (!c),2061496002,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
+Codetester,11995782,[ahk]\codetester,dopusrt#[dopus2_hidden],!opensession!#codetester,++!externalApp!#[...]\codetester.ahk,_
+Creativescala WSLROOT,1,[scL]\creativescala,WSL64ROOT
+Creativescala WSL,1,[scL]\creativescala,WSL64
+Creativescala,32494745,[scL]\creativescala,dopus,!opensession!#creativescala,Foxit#[DOC]\creative-scala.pdf,curl#[scsRest](Scala3_creativescala)
+Dirsaver,1,[sc]\dirsaver,dopusrt#[dopus2_hidden],!opensession!#dirsaver
+dispatch,32494745,[scL]\dispatch,dopus,!opensession!#zzz_dispatch
+Docker,1012901044,[docker_learn],dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#docker,++!externalApp!#%comspec% /c .\webmin_integration\___run.bat,_
+dottylatest Test WSL,1,/mnt/c/,WSL64#{text}printenv 
+dottylatest WSLROOT,32995711,/mnt/c/,WSL64ROOT#{text}cd /mnt/c/___x2_wrk/_autohotkey/dottylatest~1#[E]~1#{text}./dottylatest_Java.sh~1#[E]~1#{text}source /etc/profile.d/dottylatest.sh~1#[E]~1
+Dottylatest,32495533,[ahk]\dottylatest,dopusrt#[dopus2_hidden],!opensession!#dottylatest
+eMail me,1,,email#[email1]
+ff4s,1030993853,[scjs10]\ff4s,dopusrt#/acmd Go [...] DUALPATH [...]\ff4s\examples\src\main\scala\examples,!opensession!#ff4s,cmdC#[scjs10]\ff4s\_____url.bat,!externalApp!#%comspec% /c [...]\ff4s\___run.bat
+Findreplace2,1,[sc]\findreplace2,dopusrt#[dopus2_hidden],!opensession!#findreplace2
+Functional,80096856,[scL]\__FUNCTIONAL,dopusrt#/acmd Go [...] DUALPATH [...]\_youtube,!opensession!#__FUNCTIONAL,++!externalApp!#test_curl_open.bat,_
+Haskell WSL,1,[wksp]\haskell,curl#[scsRest](Haskell_$WSL$),++++dopusrt#/acmd Go [...] DUALPATH [...]\,++!opensession!#haskell
+Haskell,1,[wksp]\haskell,dopusrt#/acmd Go [...] DUALPATH [...]\,firefox#§_____url.txt§,++++!opensession!#haskell,++++curl#[scsRest](Haskell)
+HealTaskbarRows,60296462,[ahk]\healtaskbarrows,dopusrt#[dopus2_hidden],!opensession!#healtaskbarrows
+Heartbeat,1,[ahk]\heartbeat,dopusrt#[dopus2_hidden],!opensession!#heartbeat
+HKB_Convert,1,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#hkb
+httpsclient,1,[scL]\http4s\httpsclient,dopus,!opensession!#http4s,curl#[scsRest](httpsclient)
+Jvrde (sjs),1,[sjs]\jvrde,dopus,!opensession!#jvrde-scalajs
+Jvrde (xit),1,[xit],dopusrt#/acmd Go [...] DUALPATH [xit],!opensession!#xitrum
+Jvrde,2030593605,[jvrde],dopusrt#/acmd Go [...] DUALPATH D:\_jvr_de_from_server,!opensession!#jvrde,_,_
+kontaktSupporter,61196521,[ahk]\kontaktsupporter,dopusrt#[dopus2_hidden],!opensession!#kontaktsupporter,!externalApp!#[...]\kontaktsupporter.ahk
+Laminar-test1,2010697790,[scjs10]\_laminar\test1,dopusrt#/acmd Go [...] DUALPATH [...],++++!opensession!#laminar_test1,cmdC#[scjs10]\_laminar\test1\_____url.bat,++!externalApp!#%comspec% /c [...]\___run.bat
+lang2,11997852,[ahk]\lang2,dopusrt#[dopus2],!opensession!#lang2,!externalApp!#[...]\winHttpRequest_test.ahk,_
+Loader,2040399643,[ahk]\loader,dopusrt#[dopus2_hidden],!opensession!#loader
+LOCAL_SERVER,1,[local_server],dopusrt#/acmd Go [...] DUALPATH [local_server],!opensession!#LOCAL_SERVER,firefox#§_____url.txt§
+Memo,99999999999,C:\jvr_shared\_memo,dopusrt#/acmd Go C:\___jvr_work\___workspaces\1 DUALPATH [...],!opensession!#memo,_
+PHP,1,[wksp]\_php,dopusrt#/acmd Go [...] NEWTAB OPENINRIGHT DUALPATH 
+Playlist (Web),1,[sjs]\playlist,dopusrt#[dopus2_hidden],!opensession!#playlist
+playWithPrimes,1,[sc]\playWithPrimes,dopus,!opensession!#playwithprimes,curl#[scsRest](playWithPrimes)
+Pricecompare_loader,1,[ahk]\pricecompare_loader,dopusrt#[dopus2_hidden],!opensession!#pricecompare_loader
+Pricecompare_native,1,[sc]\pricecompare_native,dopusrt#[dopus2_hidden],!opensession!#pricecompare_native
+Pricecompare,1,[pricecp]\,dopusrt#[dopus2_hidden],!opensession!#pricecompare
+pwEnterService,40494544,[ahk]\pwEnterService,dopusrt#/acmd Go [...] OPENINLEFT DUALPATH [ahk]\pwEnterService,!opensession!#pwEnterService,!externalApp!#[...]\pwEnterService.ahk,_
+Robo,1,[jvrwrk]\_bat\robo,dopus,!opensession!#robo
+sbt_console_select (!t),2061793475,[ahk]\sbt_console_select,dopusrt#/acmd Go [...] DUALPATH [jvrwrkspcesn],!opensession!#sbt_console_select,_,+++cmdC#_____url.bat
+Scala-CLI first,2011195791,[sccli]\first,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scala-cli-first,firefox#https://scala-cli.virtuslab.org/,odt#[sccli]\first\chatGPT_scala_CLI_first.odt
+Scala-CLI genIndextab10,2011195792,[sccli]\genIndextab10,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scala-cli-genIndextab10,cmdC#_____url.bat,!externalApp!#_genIndex_APK_Index_only.bat
+Scala-CLI genIndex,2011195792,[sccli]\genIndex,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scala-cli-genIndex,cmdC#_____url.bat,!externalApp!#_genIndex_APK_Index_only.bat
+Scala-CLI toolkit_test,2011195792,[sccli]\toolkit_test,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scala-cli-toolkit_test,cmdC#_____url.bat,!externalApp!#___terminalREPL.bat
+Scala-CLI version_inc,2011195793,[sccli]\version_inc,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scala-cli-version_inc,cmdC#_____url.bat,!externalApp!#_version_inc.bat
+Scala-CLI Lanterna,2042599983,[sccli]\Lanterna,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#Lanterna,cmdC#_____url.bat,!externalApp!#_____loopMake26.bat
+Scala-CLI Snippets,2050095053,[sccli]\a_snippets,dopusrt#/acmd Go [...] DUALPATH [...],!opensession!#scalacli-Snippets,cmdC#_____url.bat,!externalApp!#_____loopMake26.bat
+Scala-http4s_devserver,2020294820,[sc]\http4s\http4s_devserver,dopus,nppp#[memo]\http4s_devserver,firefox#http4s.org/v0.23/docs/quickstart.html,_
+Scala-http4s,2020294896,[sc]\http4s\quickstart,dopus,nppp#[memo]\http4s_quickstart,cmdC#_____url.bat,_
+Scala-js_1.0,1,[jvrwrk]\___workspaces\____scalajs10,firefox#§_____url.txt§,dopusrt#[dopus2],!opensession!#scalajs10
+Scala-nt_Catsef-linux-first,2002394502,[scn]\first-catsef-linux,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#first-catsef-linux,firefox#https://scala-native.org/en/stable/,odt#[scN]\chatGPT_scala_nativ.odt
+Scala-nt_Catsef-REPL-first,2020795603,[scn]\first-catsef-REPL,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#first-catsef-REPL,firefox#https://scala-native.org/en/stable/,odt#[sccecli]\chatGPT.odt
+Scala-nt_first-linux,2002394501,[scn]\first-linux,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#first-linux,firefox#https://scala-native.org/en/stable/,odt#[scN]chatGPT_scala_nativ.odt
+Scala-nt_Vivi-linux,2002395641,[scn]\vivi-linux,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#vivi-linux,firefox#https://scala-native.org/en/stable/,odt#[scN]\chatGPT_scala_nativ.odt
+Scala-nt_Vivi-windows-dynamic,2009995922,[scn]\vivi-windows-dynamic,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#vivi-windows-dynamic,firefox#https://scala-native.org/en/stable/,odt#[scN]\chatGPT_scala_nativ.odt
+Scala-nt_Vivi-windows-static,2009995923,[scn]\vivi-windows-static,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#vivi-windows-static,firefox#https://scala-native.org/en/stable/,odt#[scN]\chatGPT_scala_nativ.odt
+Scala3 consoleQuick,1030,[scL]\scala3,dopus,!opensession!#scala3,Firefox#https://docs.scala-lang.org/scala3/new-in-scala3.html,curl#[scsRest](Scala3_Learn)
+Scala3 WSL,1030696525,[scL]\scala3,WSL64
+scalafxAsScript,1,[sc]\scalafxAsScript,dopusrt#[dopus2_hidden],!opensession!#scalafxAsScript
+Selja (!j),1100894623,[ahk]\selja,dopusrt#[dopus2_hidden],!opensession!#selja
+Selsca (!p),1030796574,[ahk]\selsca,dopusrt#[dopus2_hidden],!opensession!#selsca
+Sepp,1092696620,C:\_sepp_cloud,dopusrt#/acmd Go [...]\var_opt\dmd DUALPATH [...],++!opensession!#sepp,+++++!externalApp!#%comspec% /c [...]\var_opt\dmd\_______CX31.bat,_
+Servercheck,1,[ahk]\servercheck,dopusrt#[dopus2_hidden],!opensession!#servercheck
+Simpedde,1,[simpedde],dopusrt#/acmd Go [...] DUALPATH [simpedde],!opensession!#simpedde
+Simpletools AutoHotkey v2 Help,32593745,[ahk]\simpletools,dopusrt#[dopus2_hidden],!opensession!#simpletools,!externalApp!#[...]\AutohotkeyHelp2.ahk,_
+Simpletools,2040400920,[ahk]\simpletools,dopusrt#[dopus2_hidden],!opensession!#simpletools
+Skatstube,1,[ahk]\skatstube,dopusrt#[dopus2_hidden],!opensession!#skatstube
+Skunk,80096854,[sc]\skunk,dopusrt#/acmd Go [...] DUALPATH [...]\_git_scr,++!externalApp!#psqlStart.bat,!opensession!#skunk,_
+Slick,1,[scL]\slick,dopusrt#[dopus2]/slick,++!opensession!#slick,Foxit#[scL]\slick\essential-slick-3.pdf
+Startdelayed,42594711,[ahk]\startdelayed,dopusrt#[dopus2_hidden],!opensession!#startdelayed,++!externalApp!#[...]\startdelayed editmode
+SuperClicker,32494822,[ahk]\superclicker,dopusrt#/acmd Go [...]  DUALPATH [...]\hidden,!opensession!#superclicker
+Suspend,1,[ahk]\Suspend,dopusrt#[dopus2_hidden],!opensession!#Suspend
+Systemcheck,1,[ahk]\systemcheck,dopusrt#[dopus2_hidden],!opensession!#systemcheck
+Textdictator (Web),1,[sjs]\textdictator,dopus,!opensession!#textdictator
+Threejs,1,[sjs]\threejs,dopusrt#[dopus2_hidden],!opensession!#threejs,Firefox#https://threejs.org/docs/index.html°manual/en/introduction/Creating-a-scene
+Titleliner,61795635,[ahk]\titleliner,dopusrt#[dopus2_hidden],!opensession!#titleliner
+UnicodeTable,32584523,[ahk]\UnicodeTable,dopusrt#[dopus2_hidden],!opensession!#UnicodeTable,++!externalApp!#[...]\UnicodeTable.ahk,_
+Updater,40496532,[ahk]\updater,dopusrt#/acmd Go [...] DUALPATH [ahk]\updater\_hidden\_test,!opensession!#updater
+Vivi-windows-JVM,2020095834,[sc]\vivi-windows-JVM,dopusrt#/acmd Go [...] DUALPATH [...]\src\main\scala,!opensession!#vivi-windows-JVM,firefox#https://www.scala-lang.org/,odt#[sc]\vivi-windows-JVM\chatGPT_vivi-windows-JVM.odt
+WSL,1,[scL]\,WSL64#amm3~1,dopus,!opensession!#testarea
