@@ -20,7 +20,7 @@ chunkCopy,40993792,[ahk]\chunkCopy,dopusrt#[dopus2_hidden],!opensession!#chunkCo
 Clickandsleep (!q),1012394882,[ahk]\clickandsleep,dopusrt#[dopus2_hidden],!opensession!#clickandsleep
 ClientServerLoader,1,[ahk]\clientserverloader,dopusrt#[dopus2_hidden],!opensession!#clientserverloader
 Clipboardresize (+#z),1030692581,[ahk]\clipboardresize,dopusrt#[dopus2_hidden],!opensession!#clipboardresize
-Cmdlinedev (!c),2061496002,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,!externalApp!#[...]\cmdlinedev.ahk showwindow,_
+Cmdlinedev (!c),2061496002,[ahk]\cmdlinedev,dopusrt#[dopus2_hidden],!opensession!#cmdlinedev,_,_
 Codetester,11995782,[ahk]\codetester,dopusrt#[dopus2_hidden],!opensession!#codetester,++!externalApp!#[...]\codetester.ahk,_
 Creativescala WSLROOT,1,[scL]\creativescala,WSL64ROOT
 Creativescala WSL,1,[scL]\creativescala,WSL64

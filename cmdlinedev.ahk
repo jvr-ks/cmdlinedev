@@ -791,6 +791,8 @@ openSession(){
       run, %runparam% ; 2nd trial
     }
     
+    SetKeyDelay , 20
+    
     WinWaitActive, %notepadId%,, 10
     if (!ErrorLevel){
       sleep, %waitForNotepadReady%
@@ -815,8 +817,9 @@ openSession(){
       sleep, %waitForEditReady%
       controlsend, Edit1, {Ctrl Down}{a}{Ctrl Up}, ahk_class #32770 ahk_exe notepad++.exe
       controlsend, Edit1, {Del}, ahk_class #32770 ahk_exe notepad++.exe
-      
+      sleep, 500
       controlsend, Edit1, %sessionName%, ahk_class #32770 ahk_exe notepad++.exe
+      sleep, 500
       
       number := 0
       DetectHiddenWindows, ON
