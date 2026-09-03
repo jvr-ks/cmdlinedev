@@ -818,7 +818,7 @@ openSession(){
       controlsend, Edit1, {Ctrl Down}{a}{Ctrl Up}, ahk_class #32770 ahk_exe notepad++.exe
       controlsend, Edit1, {Del}, ahk_class #32770 ahk_exe notepad++.exe
       sleep, 500
-      controlsend, Edit1, %sessionName%, ahk_class #32770 ahk_exe notepad++.exe
+      controlsend, Edit1, {text}%sessionName%, ahk_class #32770 ahk_exe notepad++.exe
       sleep, 500
       
       number := 0
