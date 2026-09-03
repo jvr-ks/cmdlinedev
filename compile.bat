@@ -11,4 +11,6 @@ call "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in cmdlinedev.ahk /out 
 call "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in cmdlinedev.ahk /out cmdlinedev32.exe /icon cmdlinedev.ico /bin "C:\Program Files\AutoHotkey\Compiler\Unicode 32-bit.bin"
 
 
+call upx --best cmdlinedev.exe
+call upx --best cmdlinedev32.exe
 

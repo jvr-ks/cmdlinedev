@@ -13,6 +13,7 @@ Issue / Bug | Type | fixed in version
   
 Version (&gt;=)| Change  
 ------------ | -------------  
+0.366 | Using UPX compression
 0.364 | Scroll to last used
 0.363 | Focus + Select last used
 0.362 | menuOpenHotkey removed!
