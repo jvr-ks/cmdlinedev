@@ -4,18 +4,20 @@
 
 cd %~dp0
 
-call cmdlinedev.exe remove
-call cmdlinedev32.exe remove
+@set appname=cmdlinedev
 
+call %appname%.exe remove
+call %appname%32.exe remove
 
-call "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in cmdlinedev.ahk /out cmdlinedev.exe /icon cmdlinedev.ico /bin "C:\Program Files\AutoHotkey\Compiler\Unicode 64-bit.bin"
+set autohotkeyExe=C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe
+set autohotkeyCompilerPath=C:\Program Files\AutoHotkey\Compiler\
 
-call "C:\Program Files\AutoHotkey\Compiler\Ahk2Exe.exe" /in cmdlinedev.ahk /out cmdlinedev32.exe /icon cmdlinedev.ico /bin "C:\Program Files\AutoHotkey\Compiler\Unicode 32-bit.bin"
+call "%autohotkeyExe%" /in %appname%.ahk /out %appname%.exe /icon %appname%.ico /bin "%autohotkeyCompilerPath%Unicode 64-bit.bin"
+call "%autohotkeyExe%" /in %appname%.ahk /out %appname%32.exe /icon %appname%.ico /bin "%autohotkeyCompilerPath%Unicode 32-bit.bin"
 
+call upx --best %appname%.exe
+call upx --best %appname32%.exe
 
-call upx --best cmdlinedev.exe
-call upx --best cmdlinedev32.exe
-
-start cmdlinedev.exe showwindow
+start %appname%.exe showwindow
 
 exit
