@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.367"
+appVersion := "0.368"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
@@ -85,7 +85,7 @@ if (!A_IsUnicode)
 bitName := (bit=="64" ? "" : bit)
 
 app := appName . " " . appVersion . " (" . bit . " bit)"
-appTitle := appName . " " . appVersion
+appTitle := appName . " " . appVersion . " [ AHK " . A_AhkVersion . " ]"
 
 firstStart := true
 sessionName := ""
