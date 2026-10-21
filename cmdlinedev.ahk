@@ -75,7 +75,7 @@ wrkDir := A_ScriptDir . "\"
 appName := "CmdLineDev"
 appnameLower := "cmdlinedev"
 extension := ".exe"
-appVersion := "0.368"
+appVersion := "0.369"
 
 bit := (A_PtrSize=8 ? "64" : "32")
 
